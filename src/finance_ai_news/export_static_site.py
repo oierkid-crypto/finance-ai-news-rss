@@ -8,7 +8,7 @@ from pathlib import Path
 
 from finance_ai_news.env import load_dotenv
 from finance_ai_news.product import load_dashboard_state
-from finance_ai_news.rss import build_feed_xml
+from finance_ai_news.rss import build_combined_items, build_feed_xml
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -52,6 +52,7 @@ def render_static_index() -> str:
     html = (WEB_DIR / "index.html").read_text(encoding="utf-8")
     replacements = {
         'href="/assets/styles.css"': 'href="./assets/styles.css"',
+        'href="/feeds/all.xml"': 'href="./feeds/all.xml"',
         'href="/feeds/direct_rss.xml"': 'href="./feeds/direct_rss.xml"',
         'href="/feeds/fast_news_and_leaks.xml"': 'href="./feeds/fast_news_and_leaks.xml"',
         'href="/feeds/long_form.xml"': 'href="./feeds/long_form.xml"',
@@ -96,6 +97,14 @@ def export_site(output_dir: Path, base_url: str) -> None:
             preview=not state.get("provider_ready", False),
         )
         (feeds_dir / f"{board_name}.xml").write_text(xml, encoding="utf-8")
+
+    combined_xml = build_feed_xml(
+        base_url=f"{base_url}/feeds/all.xml",
+        board_name="all",
+        items=build_combined_items(state),
+        preview=not state.get("provider_ready", False),
+    )
+    (feeds_dir / "all.xml").write_text(combined_xml, encoding="utf-8")
 
     (output_dir / ".nojekyll").write_text("", encoding="utf-8")
     (output_dir / "404.html").write_text(render_static_index(), encoding="utf-8")

@@ -10,7 +10,7 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, PlainTex
 from fastapi.staticfiles import StaticFiles
 
 from finance_ai_news.product import load_dashboard_state
-from finance_ai_news.rss import build_feed_xml
+from finance_ai_news.rss import build_combined_items, build_feed_xml
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -59,10 +59,13 @@ def refresh() -> JSONResponse:
 @app.get("/feeds/{board}.xml")
 def feed(board: str, request: Request) -> PlainTextResponse:
     state = load_dashboard_state()
-    board_data = state["boards"].get(board)
-    if board_data is None:
-        raise HTTPException(status_code=404, detail="Board not found")
-    items = board_data["delivery"]
+    if board == "all":
+        items = build_combined_items(state)
+    else:
+        board_data = state["boards"].get(board)
+        if board_data is None:
+            raise HTTPException(status_code=404, detail="Board not found")
+        items = board_data["delivery"]
     xml = build_feed_xml(
         base_url=str(request.url),
         board_name=board,

@@ -3,6 +3,14 @@ from __future__ import annotations
 from xml.sax.saxutils import escape
 
 
+def build_combined_items(state: dict) -> list[dict]:
+    items = []
+    for board in state.get("boards", {}).values():
+        items.extend(board.get("delivery", []))
+    items.sort(key=lambda item: item.get("published_at", ""), reverse=True)
+    return items
+
+
 def build_feed_xml(base_url: str, board_name: str, items: list[dict], preview: bool) -> str:
     title_suffix = "Preview" if preview else "Published"
     lines = [
