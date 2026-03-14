@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
 <title>direct_rss Feed (Published)</title>
 <link>https://oierkid-crypto.github.io/finance-ai-news-rss/feeds/direct_rss.xml</link>
@@ -8,7 +8,8 @@
 <title>Financial Services Build financial resilience with AI-powered tabletop exercises on Google Cloud By Florian Graf • 5-minute read</title>
 <link>https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud</link>
 <guid>google-cloud-financial-services:published:0</guid>
-<description>Title explicitly mentions 'AI-powered tabletop exercises' for 'Financial Services' and 'financial resilience', directly addressing both AI technology and the financial industry.</description>
+<description><![CDATA[<div><p>Title explicitly mentions 'AI-powered tabletop exercises' for 'Financial Services' and 'financial resilience', directly addressing both AI technology and the financial industry.</p><p style="margin:14px 0 0;"><a href="https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>Title explicitly mentions 'AI-powered tabletop exercises' for 'Financial Services' and 'financial resilience', directly addressing both AI technology and the financial industry.</p><p style="margin:14px 0 0;"><a href="https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -16,7 +17,8 @@
 <title>Financial Services Introducing an agentic commerce solution for merchants from PayPal and Google Cloud By Rohit Bhat • 4-minute read</title>
 <link>https://cloud.google.com/blog/topics/financial-services/introducing-an-agentic-commerce-solution-for-merchants-from-paypal-and-google-cloud</link>
 <guid>google-cloud-financial-services:published:1</guid>
-<description>Explicitly mentions 'agentic commerce solution' (AI agents) for merchants from PayPal (financial services) and Google Cloud, directly covering both AI and finance.</description>
+<description><![CDATA[<div><p>Explicitly mentions 'agentic commerce solution' (AI agents) for merchants from PayPal (financial services) and Google Cloud, directly covering both AI and finance.</p><p style="margin:14px 0 0;"><a href="https://cloud.google.com/blog/topics/financial-services/introducing-an-agentic-commerce-solution-for-merchants-from-paypal-and-google-cloud" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>Explicitly mentions 'agentic commerce solution' (AI agents) for merchants from PayPal (financial services) and Google Cloud, directly covering both AI and finance.</p><p style="margin:14px 0 0;"><a href="https://cloud.google.com/blog/topics/financial-services/introducing-an-agentic-commerce-solution-for-merchants-from-paypal-and-google-cloud" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -24,7 +26,8 @@
 <title>Modernizing regulated industries with cloud and agentic AI</title>
 <link>https://www.microsoft.com/en-us/industry/blog/general/2026/03/11/modernizing-regulated-industries-with-cloud-and-agentic-ai/</link>
 <guid>microsoft-financial-services-blog:published:0</guid>
-<description>Source is explicitly Microsoft Financial Services Blog and content discusses agentic AI for modernizing regulated industries, which clearly includes financial services.</description>
+<description><![CDATA[<div><p>Source is explicitly Microsoft Financial Services Blog and content discusses agentic AI for modernizing regulated industries, which clearly includes financial services.</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/general/2026/03/11/modernizing-regulated-industries-with-cloud-and-agentic-ai/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>Source is explicitly Microsoft Financial Services Blog and content discusses agentic AI for modernizing regulated industries, which clearly includes financial services.</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/general/2026/03/11/modernizing-regulated-industries-with-cloud-and-agentic-ai/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -32,7 +35,8 @@
 <title>The agentic moment in banking: A blueprint for better customer experiences</title>
 <link>https://www.microsoft.com/en-us/industry/blog/financial-services/banking/2026/02/26/the-agentic-moment-in-banking-a-blueprint-for-better-customer-experiences/</link>
 <guid>microsoft-financial-services-blog:published:1</guid>
-<description>Title explicitly mentions 'agentic' (AI agents) and 'banking', directly addressing the intersection of AI and finance.</description>
+<description><![CDATA[<div><p>Title explicitly mentions 'agentic' (AI agents) and 'banking', directly addressing the intersection of AI and finance.</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/financial-services/banking/2026/02/26/the-agentic-moment-in-banking-a-blueprint-for-better-customer-experiences/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>Title explicitly mentions 'agentic' (AI agents) and 'banking', directly addressing the intersection of AI and finance.</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/financial-services/banking/2026/02/26/the-agentic-moment-in-banking-a-blueprint-for-better-customer-experiences/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -40,7 +44,8 @@
 <title>From bottlenecks to breakthroughs: How agentic AI is reshaping insurance</title>
 <link>https://www.microsoft.com/en-us/industry/blog/financial-services/2026/02/18/from-bottlenecks-to-breakthroughs-how-agentic-ai-is-reshaping-insurance/</link>
 <guid>microsoft-financial-services-blog:published:2</guid>
-<description>Title explicitly mentions both 'agentic AI' (artificial intelligence) and 'insurance' (financial industry), indicating direct coverage of AI's impact on a financial sector.</description>
+<description><![CDATA[<div><p>Title explicitly mentions both 'agentic AI' (artificial intelligence) and 'insurance' (financial industry), indicating direct coverage of AI's impact on a financial sector.</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/financial-services/2026/02/18/from-bottlenecks-to-breakthroughs-how-agentic-ai-is-reshaping-insurance/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>Title explicitly mentions both 'agentic AI' (artificial intelligence) and 'insurance' (financial industry), indicating direct coverage of AI's impact on a financial sector.</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/financial-services/2026/02/18/from-bottlenecks-to-breakthroughs-how-agentic-ai-is-reshaping-insurance/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -48,7 +53,8 @@
 <title>Microsoft and Cognizant: Delivering on the promise of agentic AI adoption in insurance</title>
 <link>https://www.microsoft.com/en-us/industry/blog/financial-services/insurance/2026/02/09/microsoft-and-cognizant-delivering-on-the-promise-of-agentic-ai-adoption-in-insurance/</link>
 <guid>microsoft-financial-services-blog:published:3</guid>
-<description>Title explicitly discusses 'agentic AI adoption' (AI technology) in 'insurance' (financial industry vertical), directly addressing both required domains</description>
+<description><![CDATA[<div><p>Title explicitly discusses 'agentic AI adoption' (AI technology) in 'insurance' (financial industry vertical), directly addressing both required domains</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/financial-services/insurance/2026/02/09/microsoft-and-cognizant-delivering-on-the-promise-of-agentic-ai-adoption-in-insurance/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>Title explicitly discusses 'agentic AI adoption' (AI technology) in 'insurance' (financial industry vertical), directly addressing both required domains</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/financial-services/insurance/2026/02/09/microsoft-and-cognizant-delivering-on-the-promise-of-agentic-ai-adoption-in-insurance/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -56,7 +62,8 @@
 <title>AI transformation in financial services: 5 predictors for success in 2026</title>
 <link>https://www.microsoft.com/en-us/industry/blog/financial-services/2025/12/18/ai-transformation-in-financial-services-5-predictors-for-success-in-2026/</link>
 <guid>microsoft-financial-services-blog:published:4</guid>
-<description>Title explicitly mentions both AI transformation and financial services, directly addressing their intersection</description>
+<description><![CDATA[<div><p>Title explicitly mentions both AI transformation and financial services, directly addressing their intersection</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/financial-services/2025/12/18/ai-transformation-in-financial-services-5-predictors-for-success-in-2026/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>Title explicitly mentions both AI transformation and financial services, directly addressing their intersection</p><p style="margin:14px 0 0;"><a href="https://www.microsoft.com/en-us/industry/blog/financial-services/2025/12/18/ai-transformation-in-financial-services-5-predictors-for-success-in-2026/" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -64,7 +71,8 @@
 <title>26 February 2026 BRIEF 🚨NEW: Evident AI Index | Payments🚨 View → 5 min</title>
 <link>https://evidentinsights.com/bankingbrief/new-evident-ai-payments-index</link>
 <guid>evident-banking-brief:published:0</guid>
-<description>The candidate is clearly about both AI (Evident AI Index) and finance (Payments), specifically focusing on the intersection of AI in the payments sector of the financial industry.</description>
+<description><![CDATA[<div><p>The candidate is clearly about both AI (Evident AI Index) and finance (Payments), specifically focusing on the intersection of AI in the payments sector of the financial industry.</p><p style="margin:14px 0 0;"><a href="https://evidentinsights.com/bankingbrief/new-evident-ai-payments-index" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>The candidate is clearly about both AI (Evident AI Index) and finance (Payments), specifically focusing on the intersection of AI in the payments sector of the financial industry.</p><p style="margin:14px 0 0;"><a href="https://evidentinsights.com/bankingbrief/new-evident-ai-payments-index" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -72,7 +80,8 @@
 <title>19 February 2026 BRIEF AI remakes the org chart View → 5 min</title>
 <link>https://evidentinsights.com/bankingbrief/ai-remakes-the-org-chart</link>
 <guid>evident-banking-brief:published:1</guid>
-<description>The article from Evident Banking Brief discusses how AI is transforming organizational structures in the banking industry, making it clearly about both AI and finance.</description>
+<description><![CDATA[<div><p>The article from Evident Banking Brief discusses how AI is transforming organizational structures in the banking industry, making it clearly about both AI and finance.</p><p style="margin:14px 0 0;"><a href="https://evidentinsights.com/bankingbrief/ai-remakes-the-org-chart" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>The article from Evident Banking Brief discusses how AI is transforming organizational structures in the banking industry, making it clearly about both AI and finance.</p><p style="margin:14px 0 0;"><a href="https://evidentinsights.com/bankingbrief/ai-remakes-the-org-chart" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
@@ -80,7 +89,8 @@
 <title>05 February 2026 BRIEF Betting the house on AI View → 5 min</title>
 <link>https://evidentinsights.com/bankingbrief/betting-the-house-on-ai</link>
 <guid>evident-banking-brief:published:2</guid>
-<description>The title explicitly mentions AI in the context of banking, and the source is specifically a banking-focused publication. The phrase 'betting the house on AI' indicates a discussion about major AI investments or strategies within the banking sector.</description>
+<description><![CDATA[<div><p>The title explicitly mentions AI in the context of banking, and the source is specifically a banking-focused publication. The phrase 'betting the house on AI' indicates a discussion about major AI investments or strategies within the banking sector.</p><p style="margin:14px 0 0;"><a href="https://evidentinsights.com/bankingbrief/betting-the-house-on-ai" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p>The title explicitly mentions AI in the context of banking, and the source is specifically a banking-focused publication. The phrase 'betting the house on AI' indicates a discussion about major AI investments or strategies within the banking sector.</p><p style="margin:14px 0 0;"><a href="https://evidentinsights.com/bankingbrief/betting-the-house-on-ai" style="color:#1f5eff;font-style:italic;text-decoration:underline;">原文链接</a></p></div>]]></content:encoded>
 <category>published</category>
 <pubDate></pubDate>
 </item>
