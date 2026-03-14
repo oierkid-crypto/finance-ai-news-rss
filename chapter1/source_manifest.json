@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-03-12",
+  "goal": "Chapter 1 source acquisition verification for AI x Finance RSS product",
+  "channels": [
+    {
+      "channel": "website_blog_news",
+      "verdict": "pass",
+      "day1_core": true,
+      "stability": "high",
+      "primary_adapter": "custom_rsshub_route_or_html_parser",
+      "fallback_adapter": "manual_editor_pick",
+      "auth_required": false,
+      "why": "Stable HTML structure and low login friction make this the most reliable direct-content source family."
+    },
+    {
+      "channel": "newsletter",
+      "verdict": "pass",
+      "day1_core": true,
+      "stability": "high",
+      "primary_adapter": "native_feed_or_substack_feed",
+      "fallback_adapter": "html_parser",
+      "auth_required": false,
+      "why": "Newsletter feeds are one of the cleanest structured inputs for long-form and insight-heavy content."
+    },
+    {
+      "channel": "podcast",
+      "verdict": "pass",
+      "day1_core": true,
+      "stability": "high",
+      "primary_adapter": "native_podcast_rss",
+      "fallback_adapter": "show_page_parser",
+      "auth_required": false,
+      "why": "Podcast feeds are mature, stable, and ideal for title-summary-link workflows."
+    },
+    {
+      "channel": "youtube",
+      "verdict": "pass",
+      "day1_core": true,
+      "stability": "high",
+      "primary_adapter": "yt_dlp_channel_fetcher",
+      "fallback_adapter": "youtube_native_video_feed",
+      "auth_required": false,
+      "why": "The old project already validated both the primary path and the fallback path."
+    },
+    {
+      "channel": "bilibili",
+      "verdict": "pass",
+      "day1_core": true,
+      "stability": "medium",
+      "primary_adapter": "rsshub_bilibili_route",
+      "fallback_adapter": "creator_page_parser",
+      "auth_required": false,
+      "why": "Good enough for Day 1 long-form ingestion in the China market."
+    },
+    {
+      "channel": "x",
+      "verdict": "pass_with_constraints",
+      "day1_core": true,
+      "stability": "medium",
+      "primary_adapter": "twikit_with_cookies",
+      "fallback_adapter": "rsshub_twitter_route_or_playwright_validation",
+      "auth_required": true,
+      "why": "Works well for curated high-signal account lists, but should not be treated as an unbounded crawl surface."
+    },
+    {
+      "channel": "linkedin_company_posts",
+      "verdict": "conditional_pass",
+      "day1_core": false,
+      "stability": "medium_low",
+      "primary_adapter": "rss_company_route_or_browser_automation",
+      "fallback_adapter": "manual_editor_pick",
+      "auth_required": true,
+      "why": "Useful but operationally more fragile than X and YouTube."
+    },
+    {
+      "channel": "linkedin_personal_posts",
+      "verdict": "partial_pass",
+      "day1_core": false,
+      "stability": "low",
+      "primary_adapter": "playwright_logged_in_session",
+      "fallback_adapter": "manual_editor_pick",
+      "auth_required": true,
+      "why": "High-value for selective experts, but not reliable enough as a broad production core."
+    },
+    {
+      "channel": "wechat_public_accounts",
+      "verdict": "phase2_only",
+      "day1_core": false,
+      "stability": "low",
+      "primary_adapter": "wewe_rss_or_wechat2rss",
+      "fallback_adapter": "manual_editor_pick",
+      "auth_required": true,
+      "why": "High editorial value but too fragile for the main ingestion layer in the first production version."
+    }
+  ],
+  "source_examples": {
+    "direct_rss": [
+      "Google Cloud Financial Services",
+      "AWS ML Blog Financial Services",
+      "Microsoft Financial Services Blog",
+      "OpenAI Customer Stories",
+      "Plaid Blog / Intelligent Finance",
+      "Evident Banking Brief",
+      "Finextra",
+      "Ant Group / Ant Digital Technologies",
+      "Tencent Cloud Finance",
+      "Alibaba Cloud Finance",
+      "QBitAI",
+      "GeekPark",
+      "21 Finance"
+    ],
+    "fast_news_and_leaks": [
+      "OpenAI official X account",
+      "Anthropic official X account",
+      "Simon Taylor",
+      "Alexandra Mousavizadeh",
+      "Richard Turrin",
+      "Lex Sokolin"
+    ],
+    "long_form": [
+      "Fintech Brainfood",
+      "Fintech Takes",
+      "Fintech Blueprint",
+      "11FS Fintech Insider",
+      "Banking Transformed",
+      "Emerj AI in Financial Services Podcast",
+      "FinextraTV",
+      "Money20/20",
+      "Finovate",
+      "Jiqizhixin",
+      "QBitAI",
+      "WAIC official videos",
+      "Bund Summit official videos"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "id": "simon-taylor-linkedin",
+      "name": "Simon Taylor",
+      "type": "person",
+      "region": "international",
+      "url": "https://www.linkedin.com/in/sytaylor/",
+      "priority": "P0",
+      "notes": "High-signal fintech and AI operator perspective."
+    },
+    {
+      "id": "alexandra-mousavizadeh-linkedin",
+      "name": "Alexandra Mousavizadeh",
+      "type": "person",
+      "region": "international",
+      "url": "https://uk.linkedin.com/in/alexandra-mousavizadeh",
+      "priority": "P0",
+      "notes": "Useful as early signal before Evident formal reports."
+    },
+    {
+      "id": "richard-turrin-linkedin",
+      "name": "Richard Turrin",
+      "type": "person",
+      "region": "international_asia",
+      "url": "https://www.linkedin.com/in/turrin/",
+      "priority": "P1",
+      "notes": "Strong Asia and fintech context."
+    },
+    {
+      "id": "lex-sokolin-linkedin",
+      "name": "Lex Sokolin",
+      "type": "person",
+      "region": "international",
+      "url": "https://www.linkedin.com/in/lexsokolin/",
+      "priority": "P1",
+      "notes": "Useful for structural AI x finance commentary."
+    },
+    {
+      "id": "openai-company-linkedin",
+      "name": "OpenAI Company Page",
+      "type": "company",
+      "region": "international",
+      "url": "https://www.linkedin.com/company/openai/",
+      "priority": "P1",
+      "notes": "Good for short partnership and product snapshots."
+    }
+  ]
+}

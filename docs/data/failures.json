@@ -1,0 +1,21 @@
+[
+  {
+    "file": "web_latest.json",
+    "source_id": "openai-customer-stories",
+    "source_name": "OpenAI Customer Stories",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "web_latest.json",
+    "source_id": "finextra",
+    "source_name": "Finextra",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "bilibili_latest.json",
+    "source_id": "waic-bilibili",
+    "source_name": "WAIC Bilibili Video Feed",
+    "uid": "448695332",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

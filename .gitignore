@@ -1,0 +1,14 @@
+.DS_Store
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+chapter1/output/
+chapter2/output/
+screenshots/
+
+docs/.DS_Store
+
+*.log

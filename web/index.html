@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signal Ledger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI x Finance Intelligence</p>
+          <h1>Signal Ledger</h1>
+          <p class="lede">
+            A live editorial radar for Chinese financial professionals who want
+            the frontier, not the noise.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="stat">
+            <span class="stat-label">Delivery Items</span>
+            <strong id="total-delivery">0</strong>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Review Queue</span>
+            <strong id="total-review">0</strong>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Source Failures</span>
+            <strong id="total-failures">0</strong>
+          </div>
+          <div class="stat">
+            <span class="stat-label">Semantic Filter</span>
+            <strong id="provider-status">offline</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls">
+        <button id="refresh-button" class="primary">Refresh Pipeline</button>
+        <div class="feed-links">
+          <a href="/feeds/direct_rss.xml" target="_blank">Direct RSS Feed</a>
+          <a href="/feeds/fast_news_and_leaks.xml" target="_blank">Fast News Feed</a>
+          <a href="/feeds/long_form.xml" target="_blank">Long Form Feed</a>
+        </div>
+      </section>
+
+      <section class="boards">
+        <article class="board">
+          <div class="board-head">
+            <div>
+              <p class="board-tag">Board 01</p>
+              <h2>Direct RSS</h2>
+            </div>
+            <span class="board-status" id="direct-status">Preview</span>
+          </div>
+          <div class="card-grid" id="direct_rss"></div>
+        </article>
+
+        <article class="board">
+          <div class="board-head">
+            <div>
+              <p class="board-tag">Board 02</p>
+              <h2>Fast News & Leaks</h2>
+            </div>
+            <span class="board-status" id="fast-status">Preview</span>
+          </div>
+          <div class="card-grid" id="fast_news_and_leaks"></div>
+        </article>
+
+        <article class="board">
+          <div class="board-head">
+            <div>
+              <p class="board-tag">Board 03</p>
+              <h2>Long Form</h2>
+            </div>
+            <span class="board-status" id="long-status">Preview</span>
+          </div>
+          <div class="card-grid" id="long_form"></div>
+        </article>
+      </section>
+
+      <section class="boards secondary-boards">
+        <article class="board review-board">
+          <div class="board-head">
+            <div>
+              <p class="board-tag">Editor Queue</p>
+              <h2>Review Candidates</h2>
+            </div>
+            <span class="board-status" id="review-status">Queue</span>
+          </div>
+          <div class="review-grid">
+            <div class="review-column">
+              <h3>Direct RSS</h3>
+              <div class="mini-grid" id="direct_rss_review"></div>
+            </div>
+            <div class="review-column">
+              <h3>Fast News & Leaks</h3>
+              <div class="mini-grid" id="fast_news_and_leaks_review"></div>
+            </div>
+            <div class="review-column">
+              <h3>Long Form</h3>
+              <div class="mini-grid" id="long_form_review"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="footer-panels">
+        <article class="panel">
+          <h3>Source Failures</h3>
+          <ul id="failures"></ul>
+        </article>
+        <article class="panel">
+          <h3>How It Works</h3>
+          <ol>
+            <li>Adapters fetch the cheapest candidate list from each source family.</li>
+            <li>A semantic filter decides accept, reject, or review.</li>
+            <li>Only accepted items should become the final paid feed.</li>
+          </ol>
+        </article>
+      </section>
+    </main>
+    <script src="/assets/app.js" defer></script>
+  </body>
+</html>

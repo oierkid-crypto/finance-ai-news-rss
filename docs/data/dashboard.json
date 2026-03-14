@@ -1,0 +1,718 @@
+{
+  "generated_at": "2026-03-14T02:42:15.286334Z",
+  "provider": "openai_compatible_with_fallback",
+  "provider_ready": true,
+  "stats": {
+    "total_delivery_items": 13,
+    "total_review_items": 13,
+    "total_failures": 3,
+    "sources_live": 4
+  },
+  "boards": {
+    "direct_rss": {
+      "published": [
+        {
+          "id": "google-cloud-financial-services:published:0",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "google-cloud-financial-services",
+          "source_name": "Google Cloud Financial Services",
+          "title": "Financial Services Build financial resilience with AI-powered tabletop exercises on Google Cloud By Florian Graf • 5-minute read",
+          "snippet": "Title explicitly mentions 'AI-powered tabletop exercises' for 'Financial Services' and 'financial resilience', directly addressing both AI technology and the financial industry.",
+          "url": "https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly mentions 'AI-powered tabletop exercises' for 'Financial Services' and 'financial resilience', directly addressing both AI technology and the financial industry.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "google-cloud-financial-services:published:1",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "google-cloud-financial-services",
+          "source_name": "Google Cloud Financial Services",
+          "title": "Financial Services Introducing an agentic commerce solution for merchants from PayPal and Google Cloud By Rohit Bhat • 4-minute read",
+          "snippet": "Explicitly mentions 'agentic commerce solution' (AI agents) for merchants from PayPal (financial services) and Google Cloud, directly covering both AI and finance.",
+          "url": "https://cloud.google.com/blog/topics/financial-services/introducing-an-agentic-commerce-solution-for-merchants-from-paypal-and-google-cloud",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Explicitly mentions 'agentic commerce solution' (AI agents) for merchants from PayPal (financial services) and Google Cloud, directly covering both AI and finance.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:0",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "Modernizing regulated industries with cloud and agentic AI",
+          "snippet": "Source is explicitly Microsoft Financial Services Blog and content discusses agentic AI for modernizing regulated industries, which clearly includes financial services.",
+          "url": "https://www.microsoft.com/en-us/industry/blog/general/2026/03/11/modernizing-regulated-industries-with-cloud-and-agentic-ai/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Source is explicitly Microsoft Financial Services Blog and content discusses agentic AI for modernizing regulated industries, which clearly includes financial services.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:1",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "The agentic moment in banking: A blueprint for better customer experiences",
+          "snippet": "Title explicitly mentions 'agentic' (AI agents) and 'banking', directly addressing the intersection of AI and finance.",
+          "url": "https://www.microsoft.com/en-us/industry/blog/financial-services/banking/2026/02/26/the-agentic-moment-in-banking-a-blueprint-for-better-customer-experiences/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly mentions 'agentic' (AI agents) and 'banking', directly addressing the intersection of AI and finance.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:2",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "From bottlenecks to breakthroughs: How agentic AI is reshaping insurance",
+          "snippet": "Title explicitly mentions both 'agentic AI' (artificial intelligence) and 'insurance' (financial industry), indicating direct coverage of AI's impact on a financial sector.",
+          "url": "https://www.microsoft.com/en-us/industry/blog/financial-services/2026/02/18/from-bottlenecks-to-breakthroughs-how-agentic-ai-is-reshaping-insurance/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly mentions both 'agentic AI' (artificial intelligence) and 'insurance' (financial industry), indicating direct coverage of AI's impact on a financial sector.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:3",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "Microsoft and Cognizant: Delivering on the promise of agentic AI adoption in insurance",
+          "snippet": "Title explicitly discusses 'agentic AI adoption' (AI technology) in 'insurance' (financial industry vertical), directly addressing both required domains",
+          "url": "https://www.microsoft.com/en-us/industry/blog/financial-services/insurance/2026/02/09/microsoft-and-cognizant-delivering-on-the-promise-of-agentic-ai-adoption-in-insurance/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly discusses 'agentic AI adoption' (AI technology) in 'insurance' (financial industry vertical), directly addressing both required domains",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:4",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "AI transformation in financial services: 5 predictors for success in 2026",
+          "snippet": "Title explicitly mentions both AI transformation and financial services, directly addressing their intersection",
+          "url": "https://www.microsoft.com/en-us/industry/blog/financial-services/2025/12/18/ai-transformation-in-financial-services-5-predictors-for-success-in-2026/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly mentions both AI transformation and financial services, directly addressing their intersection",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:published:0",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "26 February 2026 BRIEF 🚨NEW: Evident AI Index | Payments🚨 View → 5 min",
+          "snippet": "The candidate is clearly about both AI (Evident AI Index) and finance (Payments), specifically focusing on the intersection of AI in the payments sector of the financial industry.",
+          "url": "https://evidentinsights.com/bankingbrief/new-evident-ai-payments-index",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The candidate is clearly about both AI (Evident AI Index) and finance (Payments), specifically focusing on the intersection of AI in the payments sector of the financial industry.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:published:1",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "19 February 2026 BRIEF AI remakes the org chart View → 5 min",
+          "snippet": "The article from Evident Banking Brief discusses how AI is transforming organizational structures in the banking industry, making it clearly about both AI and finance.",
+          "url": "https://evidentinsights.com/bankingbrief/ai-remakes-the-org-chart",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The article from Evident Banking Brief discusses how AI is transforming organizational structures in the banking industry, making it clearly about both AI and finance.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:published:2",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "05 February 2026 BRIEF Betting the house on AI View → 5 min",
+          "snippet": "The title explicitly mentions AI in the context of banking, and the source is specifically a banking-focused publication. The phrase 'betting the house on AI' indicates a discussion about major AI investments or strategies within the banking sector.",
+          "url": "https://evidentinsights.com/bankingbrief/betting-the-house-on-ai",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The title explicitly mentions AI in the context of banking, and the source is specifically a banking-focused publication. The phrase 'betting the house on AI' indicates a discussion about major AI investments or strategies within the banking sector.",
+            "finance_scope": ""
+          }
+        }
+      ],
+      "review": [
+        {
+          "id": "google-cloud-financial-services:review:0",
+          "board": "direct_rss",
+          "bucket": "review",
+          "source_id": "google-cloud-financial-services",
+          "source_name": "Google Cloud Financial Services",
+          "title": "Financial Services How CME Group builds a faster, smarter exchange on Cloud SQL By Kristofer Shane Sikora • 4-minute read",
+          "snippet": "Clearly about financial services (CME Group exchange) but AI relevance is ambiguous. The word 'smarter' could imply AI/ML optimization, but the snippet focuses on Cloud SQL database infrastructure without explicit mention of AI techniques, models, or machine learning. Requires full article to determine if 'smarter' fu…",
+          "url": "https://cloud.google.com/blog/topics/financial-services/how-cme-group-builds-a-faster-smarter-exchange-on-cloud-sql",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Clearly about financial services (CME Group exchange) but AI relevance is ambiguous. The word 'smarter' could imply AI/ML optimization, but the snippet focuses on Cloud SQL database infrastructure without explicit mention of AI techniques, models, or machine learning. Requires full article to determine if 'smarter' functionality involves actual AI/ML implementation or just improved engineering.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:review:0",
+          "board": "direct_rss",
+          "bucket": "review",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "12 March 2026 BRIEF Model dating game View → 5 min",
+          "snippet": "The source 'Evident Banking Brief' indicates this is about finance (banking), but the title 'Model dating game' is cryptic and doesn't clearly indicate AI content. 'BRIEF Model' could potentially refer to an AI model, but without more context, it's impossible to determine if this article is about the intersection of A…",
+          "url": "https://evidentinsights.com/bankingbrief/model-dating-game",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The source 'Evident Banking Brief' indicates this is about finance (banking), but the title 'Model dating game' is cryptic and doesn't clearly indicate AI content. 'BRIEF Model' could potentially refer to an AI model, but without more context, it's impossible to determine if this article is about the intersection of AI and finance.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:review:1",
+          "board": "direct_rss",
+          "bucket": "review",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "05 March 2026 BRIEF AI layoff bubble View → 5 min",
+          "snippet": "While the source name 'Evident Banking Brief' and URL suggest a financial industry focus, the title and snippet only mention 'AI layoff bubble' without explicitly connecting it to finance. The content could be about AI layoffs in general rather than specifically in the financial industry.",
+          "url": "https://evidentinsights.com/bankingbrief/ai-layoff-bubble",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "While the source name 'Evident Banking Brief' and URL suggest a financial industry focus, the title and snippet only mention 'AI layoff bubble' without explicitly connecting it to finance. The content could be about AI layoffs in general rather than specifically in the financial industry.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:review:2",
+          "board": "direct_rss",
+          "bucket": "review",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "12 February 2026 BRIEF Europe wakes up View → 5 min",
+          "snippet": "The source 'Evident Banking Brief' indicates this is about banking/finance, but the title '12 February 2026 BRIEF Europe wakes up' is too generic to determine if it discusses AI applications in finance. There's no explicit mention of AI, machine learning, or related technologies in the title or snippet.",
+          "url": "https://evidentinsights.com/bankingbrief/europe-wakes-up",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The source 'Evident Banking Brief' indicates this is about banking/finance, but the title '12 February 2026 BRIEF Europe wakes up' is too generic to determine if it discusses AI applications in finance. There's no explicit mention of AI, machine learning, or related technologies in the title or snippet.",
+            "finance_scope": ""
+          }
+        }
+      ],
+      "delivery": [
+        {
+          "id": "google-cloud-financial-services:published:0",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "google-cloud-financial-services",
+          "source_name": "Google Cloud Financial Services",
+          "title": "Financial Services Build financial resilience with AI-powered tabletop exercises on Google Cloud By Florian Graf • 5-minute read",
+          "snippet": "Title explicitly mentions 'AI-powered tabletop exercises' for 'Financial Services' and 'financial resilience', directly addressing both AI technology and the financial industry.",
+          "url": "https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly mentions 'AI-powered tabletop exercises' for 'Financial Services' and 'financial resilience', directly addressing both AI technology and the financial industry.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "google-cloud-financial-services:published:1",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "google-cloud-financial-services",
+          "source_name": "Google Cloud Financial Services",
+          "title": "Financial Services Introducing an agentic commerce solution for merchants from PayPal and Google Cloud By Rohit Bhat • 4-minute read",
+          "snippet": "Explicitly mentions 'agentic commerce solution' (AI agents) for merchants from PayPal (financial services) and Google Cloud, directly covering both AI and finance.",
+          "url": "https://cloud.google.com/blog/topics/financial-services/introducing-an-agentic-commerce-solution-for-merchants-from-paypal-and-google-cloud",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Explicitly mentions 'agentic commerce solution' (AI agents) for merchants from PayPal (financial services) and Google Cloud, directly covering both AI and finance.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:0",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "Modernizing regulated industries with cloud and agentic AI",
+          "snippet": "Source is explicitly Microsoft Financial Services Blog and content discusses agentic AI for modernizing regulated industries, which clearly includes financial services.",
+          "url": "https://www.microsoft.com/en-us/industry/blog/general/2026/03/11/modernizing-regulated-industries-with-cloud-and-agentic-ai/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Source is explicitly Microsoft Financial Services Blog and content discusses agentic AI for modernizing regulated industries, which clearly includes financial services.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:1",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "The agentic moment in banking: A blueprint for better customer experiences",
+          "snippet": "Title explicitly mentions 'agentic' (AI agents) and 'banking', directly addressing the intersection of AI and finance.",
+          "url": "https://www.microsoft.com/en-us/industry/blog/financial-services/banking/2026/02/26/the-agentic-moment-in-banking-a-blueprint-for-better-customer-experiences/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly mentions 'agentic' (AI agents) and 'banking', directly addressing the intersection of AI and finance.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:2",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "From bottlenecks to breakthroughs: How agentic AI is reshaping insurance",
+          "snippet": "Title explicitly mentions both 'agentic AI' (artificial intelligence) and 'insurance' (financial industry), indicating direct coverage of AI's impact on a financial sector.",
+          "url": "https://www.microsoft.com/en-us/industry/blog/financial-services/2026/02/18/from-bottlenecks-to-breakthroughs-how-agentic-ai-is-reshaping-insurance/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly mentions both 'agentic AI' (artificial intelligence) and 'insurance' (financial industry), indicating direct coverage of AI's impact on a financial sector.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:3",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "Microsoft and Cognizant: Delivering on the promise of agentic AI adoption in insurance",
+          "snippet": "Title explicitly discusses 'agentic AI adoption' (AI technology) in 'insurance' (financial industry vertical), directly addressing both required domains",
+          "url": "https://www.microsoft.com/en-us/industry/blog/financial-services/insurance/2026/02/09/microsoft-and-cognizant-delivering-on-the-promise-of-agentic-ai-adoption-in-insurance/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly discusses 'agentic AI adoption' (AI technology) in 'insurance' (financial industry vertical), directly addressing both required domains",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "microsoft-financial-services-blog:published:4",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "microsoft-financial-services-blog",
+          "source_name": "Microsoft Financial Services Blog",
+          "title": "AI transformation in financial services: 5 predictors for success in 2026",
+          "snippet": "Title explicitly mentions both AI transformation and financial services, directly addressing their intersection",
+          "url": "https://www.microsoft.com/en-us/industry/blog/financial-services/2025/12/18/ai-transformation-in-financial-services-5-predictors-for-success-in-2026/",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title explicitly mentions both AI transformation and financial services, directly addressing their intersection",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:published:0",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "26 February 2026 BRIEF 🚨NEW: Evident AI Index | Payments🚨 View → 5 min",
+          "snippet": "The candidate is clearly about both AI (Evident AI Index) and finance (Payments), specifically focusing on the intersection of AI in the payments sector of the financial industry.",
+          "url": "https://evidentinsights.com/bankingbrief/new-evident-ai-payments-index",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The candidate is clearly about both AI (Evident AI Index) and finance (Payments), specifically focusing on the intersection of AI in the payments sector of the financial industry.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:published:1",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "19 February 2026 BRIEF AI remakes the org chart View → 5 min",
+          "snippet": "The article from Evident Banking Brief discusses how AI is transforming organizational structures in the banking industry, making it clearly about both AI and finance.",
+          "url": "https://evidentinsights.com/bankingbrief/ai-remakes-the-org-chart",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The article from Evident Banking Brief discusses how AI is transforming organizational structures in the banking industry, making it clearly about both AI and finance.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "evident-banking-brief:published:2",
+          "board": "direct_rss",
+          "bucket": "published",
+          "source_id": "evident-banking-brief",
+          "source_name": "Evident Banking Brief",
+          "title": "05 February 2026 BRIEF Betting the house on AI View → 5 min",
+          "snippet": "The title explicitly mentions AI in the context of banking, and the source is specifically a banking-focused publication. The phrase 'betting the house on AI' indicates a discussion about major AI investments or strategies within the banking sector.",
+          "url": "https://evidentinsights.com/bankingbrief/betting-the-house-on-ai",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The title explicitly mentions AI in the context of banking, and the source is specifically a banking-focused publication. The phrase 'betting the house on AI' indicates a discussion about major AI investments or strategies within the banking sector.",
+            "finance_scope": ""
+          }
+        }
+      ]
+    },
+    "fast_news_and_leaks": {
+      "published": [
+        {
+          "id": "simon-taylor-x:published:0",
+          "board": "fast_news_and_leaks",
+          "bucket": "published",
+          "source_id": "simon-taylor-x",
+          "source_name": "Simon Taylor on X",
+          "title": "The thirst for mindshare in agentic commerce and payments is UNHINGED rn.  Everyone knows it will go parabolic.  Nobody…",
+          "snippet": "The thirst for mindshare in agentic commerce and payments is UNHINGED rn.\n\nEveryone knows it will go parabolic.\n\nNobody knows when. \n\nSuch a weird dynamic.",
+          "url": "https://x.com/sytaylor/status/2031805900248195457",
+          "published_at": "Wed Mar 11 18:54:10 +0000 2026",
+          "metadata": {
+            "handle": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Explicitly discusses 'agentic commerce and payments,' directly addressing AI agents and the payments industry with commentary on market dynamics and growth expectations.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "simon-taylor-x:published:1",
+          "board": "fast_news_and_leaks",
+          "bucket": "published",
+          "source_id": "simon-taylor-x",
+          "source_name": "Simon Taylor on X",
+          "title": "Wild. @tryramp gave agents have their own credit cards 💳  They launched \"Agent Cards\" today.  Spend limits.  Merchant c…",
+          "snippet": "Wild. @tryramp gave agents have their own credit cards 💳\n\nThey launched \"Agent Cards\" today.\n\nSpend limits. \nMerchant controls. \nNo card numbers exposed. \nAPI/MCP/CLI native 😍\n\n---\n\nThe crypto crowd is betting agents will skip cards entirely and pay in stablecoins.\n\nThey're https://t.co/Qnd0QYtpHW",
+          "url": "https://x.com/sytaylor/status/2031804012886917519",
+          "published_at": "Wed Mar 11 18:46:40 +0000 2026",
+          "metadata": {
+            "handle": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The post explicitly discusses Ramp launching 'Agent Cards' - credit cards designed for AI agents with spend limits and merchant controls. This is a direct intersection of AI agents and financial payments infrastructure. Also mentions stablecoins as an alternative payment method for agents, reinforcing the AI+finance theme.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "simon-taylor-x:published:2",
+          "board": "fast_news_and_leaks",
+          "bucket": "published",
+          "source_id": "simon-taylor-x",
+          "source_name": "Simon Taylor on X",
+          "title": "Agents with Virtual cards is the meta",
+          "snippet": "Agents with Virtual cards is the meta",
+          "url": "https://x.com/sytaylor/status/2031802316341276689",
+          "published_at": "Wed Mar 11 18:39:55 +0000 2026",
+          "metadata": {
+            "handle": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The post explicitly mentions 'Agents' (AI agents) and 'Virtual cards' (financial/payment product), directly addressing their intersection as a trend/meta.",
+            "finance_scope": ""
+          }
+        }
+      ],
+      "review": [],
+      "delivery": [
+        {
+          "id": "simon-taylor-x:published:0",
+          "board": "fast_news_and_leaks",
+          "bucket": "published",
+          "source_id": "simon-taylor-x",
+          "source_name": "Simon Taylor on X",
+          "title": "The thirst for mindshare in agentic commerce and payments is UNHINGED rn.  Everyone knows it will go parabolic.  Nobody…",
+          "snippet": "The thirst for mindshare in agentic commerce and payments is UNHINGED rn.\n\nEveryone knows it will go parabolic.\n\nNobody knows when. \n\nSuch a weird dynamic.",
+          "url": "https://x.com/sytaylor/status/2031805900248195457",
+          "published_at": "Wed Mar 11 18:54:10 +0000 2026",
+          "metadata": {
+            "handle": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Explicitly discusses 'agentic commerce and payments,' directly addressing AI agents and the payments industry with commentary on market dynamics and growth expectations.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "simon-taylor-x:published:1",
+          "board": "fast_news_and_leaks",
+          "bucket": "published",
+          "source_id": "simon-taylor-x",
+          "source_name": "Simon Taylor on X",
+          "title": "Wild. @tryramp gave agents have their own credit cards 💳  They launched \"Agent Cards\" today.  Spend limits.  Merchant c…",
+          "snippet": "Wild. @tryramp gave agents have their own credit cards 💳\n\nThey launched \"Agent Cards\" today.\n\nSpend limits. \nMerchant controls. \nNo card numbers exposed. \nAPI/MCP/CLI native 😍\n\n---\n\nThe crypto crowd is betting agents will skip cards entirely and pay in stablecoins.\n\nThey're https://t.co/Qnd0QYtpHW",
+          "url": "https://x.com/sytaylor/status/2031804012886917519",
+          "published_at": "Wed Mar 11 18:46:40 +0000 2026",
+          "metadata": {
+            "handle": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The post explicitly discusses Ramp launching 'Agent Cards' - credit cards designed for AI agents with spend limits and merchant controls. This is a direct intersection of AI agents and financial payments infrastructure. Also mentions stablecoins as an alternative payment method for agents, reinforcing the AI+finance theme.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "simon-taylor-x:published:2",
+          "board": "fast_news_and_leaks",
+          "bucket": "published",
+          "source_id": "simon-taylor-x",
+          "source_name": "Simon Taylor on X",
+          "title": "Agents with Virtual cards is the meta",
+          "snippet": "Agents with Virtual cards is the meta",
+          "url": "https://x.com/sytaylor/status/2031802316341276689",
+          "published_at": "Wed Mar 11 18:39:55 +0000 2026",
+          "metadata": {
+            "handle": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "The post explicitly mentions 'Agents' (AI agents) and 'Virtual cards' (financial/payment product), directly addressing their intersection as a trend/meta.",
+            "finance_scope": ""
+          }
+        }
+      ]
+    },
+    "long_form": {
+      "published": [],
+      "review": [
+        {
+          "id": "fintech-brainfood:review:0",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "fintech-brainfood",
+          "source_name": "Fintech Brainfood",
+          "title": "Feb 4, 2026 • 3 min read 🧠 Fintech Nerdcon 2026. San Diego. Tickets Live! Miami proved it. Now we're back. 19th and 20th November 2026. Sim…",
+          "snippet": "Semantic provider failed at fetch time: The read operation timed out",
+          "url": "https://www.fintechbrainfood.com/p/fintech-nerdcon-2026",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback_error",
+            "filter_reason": "Semantic provider failed at fetch time: The read operation timed out",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "fintech-brainfood:review:1",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "fintech-brainfood",
+          "source_name": "Fintech Brainfood",
+          "title": "Feb 1, 2026 • 24 min read 🧠 The Agentic Payments Map ACP, UCP, A2P, AXTP, x402. If your eyes just glazed over, you’re not alone. Simon Tayl…",
+          "snippet": "Semantic provider failed at fetch time: The read operation timed out",
+          "url": "https://www.fintechbrainfood.com/p/the-agentic-payments-map",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback_error",
+            "filter_reason": "Semantic provider failed at fetch time: The read operation timed out",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "fintech-brainfood:review:2",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "fintech-brainfood",
+          "source_name": "Fintech Brainfood",
+          "title": "Mar 10, 2026 • 13 min read 🤖 It's Time to Talk to Your CEO About Open Source AI OpenClaw is Linux. We don't know who Red Hat is yet. Simon…",
+          "snippet": "Semantic provider failed at fetch time: The read operation timed out",
+          "url": "https://www.fintechbrainfood.com/p/open-source-ai",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback_error",
+            "filter_reason": "Semantic provider failed at fetch time: The read operation timed out",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "fintech-brainfood:review:3",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "fintech-brainfood",
+          "source_name": "Fintech Brainfood",
+          "title": "Mar 3, 2026 • 13 min read 🤖 The AI Doom Loop Block fired 4,000 people. Stock ripped 24%, Was AI the Excuse or Reason or Both? Simon Taylor",
+          "snippet": "Semantic provider failed at fetch time: The read operation timed out",
+          "url": "https://www.fintechbrainfood.com/p/the-ai-doom-loop",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback_error",
+            "filter_reason": "Semantic provider failed at fetch time: The read operation timed out",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "fintech-brainfood:review:4",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "fintech-brainfood",
+          "source_name": "Fintech Brainfood",
+          "title": "Feb 23, 2026 • 11 min read 🤖 The Claw Economy What if the SaaSpocalypse was just the beginning? Simon Taylor",
+          "snippet": "Semantic provider failed at fetch time: The read operation timed out",
+          "url": "https://www.fintechbrainfood.com/p/the-claw-economy",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback_error",
+            "filter_reason": "Semantic provider failed at fetch time: The read operation timed out",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "fintech-brainfood:review:5",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "fintech-brainfood",
+          "source_name": "Fintech Brainfood",
+          "title": "Feb 9, 2026 • 9 min read 🤖 The SaaSpocalypse - The week AI killed software The models didn't get smarter this week. They got out. Simon Tay…",
+          "snippet": "Semantic provider failed at fetch time: The read operation timed out",
+          "url": "https://www.fintechbrainfood.com/p/the-saaspocalypse",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback_error",
+            "filter_reason": "Semantic provider failed at fetch time: The read operation timed out",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "11fs-fintech-insider:review:0",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "11fs-fintech-insider",
+          "source_name": "11FS Fintech Insider",
+          "title": "1045. Insights: Has the banking battlefield evolved - and is Revolut built for it?",
+          "snippet": "Title discusses banking evolution and Revolut's market positioning but does not explicitly mention AI, ML, or related technologies. While a fintech podcast may cover AI in this context, the snippet alone doesn't confirm AI is a meaningful topic.",
+          "url": "https://www.11fs.com/podcasts/1045-insights-has-the-banking-battlefield-evolved---and-is-revolut-built-for-it",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title discusses banking evolution and Revolut's market positioning but does not explicitly mention AI, ML, or related technologies. While a fintech podcast may cover AI in this context, the snippet alone doesn't confirm AI is a meaningful topic.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "11fs-fintech-insider:review:1",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "11fs-fintech-insider",
+          "source_name": "11FS Fintech Insider",
+          "title": "1043. Insights: Inside HSBC Innovation Banking UK’s future with CEO Emily Turner",
+          "snippet": "Title discusses HSBC Innovation Banking UK's future but does not explicitly mention AI, machine learning, or related technologies. While 'innovation banking' in a fintech context often includes AI, the title alone doesn't provide enough certainty that AI will be a substantial topic of discussion.",
+          "url": "https://www.11fs.com/podcasts/1043-insights-inside-hsbc-innovation-banking-uk-s-future-with-ceo-emily-turner",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title discusses HSBC Innovation Banking UK's future but does not explicitly mention AI, machine learning, or related technologies. While 'innovation banking' in a fintech context often includes AI, the title alone doesn't provide enough certainty that AI will be a substantial topic of discussion.",
+            "finance_scope": ""
+          }
+        },
+        {
+          "id": "11fs-youtube:review:0",
+          "board": "long_form",
+          "bucket": "review",
+          "source_id": "11fs-youtube",
+          "source_name": "11FS YouTube",
+          "title": "1043. Insights: Inside HSBC Innovation Banking UK’s future with CEO Emily Turner",
+          "snippet": "About this episode: \n\n\n\nIn this episode of Fintech Insider, David M. Brear sits down with Emily Turner, the newly appointed CEO of HSBC Innovation Banking UK, for a conversation about leadership,...",
+          "url": "https://www.youtube.com/watch?v=4BYnraHPANc",
+          "published_at": "",
+          "metadata": {
+            "used_path": "",
+            "filter_provider": "openai_compatible_with_fallback",
+            "filter_reason": "Title discusses 'Innovation Banking UK's future' which may involve AI given the innovation banking focus and fintech context, but there is no explicit mention of AI, machine learning, or related technologies in the title or snippet. A human review would be needed to confirm if AI is a substantive topic.",
+            "finance_scope": ""
+          }
+        }
+      ],
+      "delivery": []
+    }
+  },
+  "failures": [
+    {
+      "file": "web_latest.json",
+      "source_id": "openai-customer-stories",
+      "source_name": "OpenAI Customer Stories",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "web_latest.json",
+      "source_id": "finextra",
+      "source_name": "Finextra",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "bilibili_latest.json",
+      "source_id": "waic-bilibili",
+      "source_name": "WAIC Bilibili Video Feed",
+      "uid": "448695332",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}
