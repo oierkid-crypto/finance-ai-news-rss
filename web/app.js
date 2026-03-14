@@ -29,8 +29,11 @@ async function fetchDashboard() {
 
 function renderCard(item) {
   const published = item.published_at ? new Date(item.published_at).toLocaleString() : "Unknown time";
+  const sourceLink = item.url
+    ? `<a class="source-link" href="${item.url}" target="_blank" rel="noreferrer">原文链接</a>`
+    : "";
   return `
-    <a class="card" href="${item.url || "#"}" target="_blank" rel="noreferrer">
+    <article class="card">
       <div class="card-meta">
         <span>${item.source_name}</span>
         <span class="bucket bucket-${item.bucket}">${item.bucket}</span>
@@ -39,16 +42,20 @@ function renderCard(item) {
       <p>${item.snippet || ""}</p>
       <div class="card-foot">
         <span>${published}</span>
+        ${sourceLink}
       </div>
-    </a>
+    </article>
   `;
 }
 
 function renderMiniCard(item) {
   const published = item.published_at ? new Date(item.published_at).toLocaleDateString() : "Unknown";
   const reason = item.metadata?.filter_reason || "";
+  const sourceLink = item.url
+    ? `<a class="source-link" href="${item.url}" target="_blank" rel="noreferrer">原文链接</a>`
+    : "";
   return `
-    <a class="mini-card" href="${item.url || "#"}" target="_blank" rel="noreferrer">
+    <article class="mini-card">
       <div class="card-meta">
         <span>${item.source_name}</span>
         <span class="bucket bucket-${item.bucket}">${item.bucket}</span>
@@ -58,8 +65,9 @@ function renderMiniCard(item) {
       ${reason ? `<div class="reason">${reason}</div>` : ""}
       <div class="card-foot">
         <span>${published}</span>
+        ${sourceLink}
       </div>
-    </a>
+    </article>
   `;
 }
 

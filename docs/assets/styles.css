@@ -218,7 +218,6 @@ h1 {
   padding: 18px;
   background: rgba(255, 254, 250, 0.88);
   border: 1px solid rgba(20, 34, 24, 0.1);
-  text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
@@ -231,7 +230,6 @@ h1 {
   min-height: 140px;
   background: rgba(255, 254, 250, 0.82);
   border: 1px solid rgba(20, 34, 24, 0.08);
-  text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
@@ -264,11 +262,26 @@ h1 {
 .card-foot {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   gap: 12px;
   font-size: 12px;
   font-family: "IBM Plex Mono", monospace;
   text-transform: uppercase;
   color: rgba(20, 34, 24, 0.62);
+}
+
+.source-link {
+  color: #1f5eff;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-transform: none;
+  font-family: "Instrument Sans", "Avenir Next", sans-serif;
+  font-size: 0.9rem;
+}
+
+.source-link:hover {
+  color: #0b43d1;
 }
 
 .card h4 {
