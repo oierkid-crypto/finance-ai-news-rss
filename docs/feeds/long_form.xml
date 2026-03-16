@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-<title>FinAI 的监管、合规与风险治理 | What Could Slow Things Down (Preview)</title>
+<title>FinAI 的监管、合规与风险治理 | What Could Slow Things Down (Published)</title>
 <link>https://oierkid-crypto.github.io/finance-ai-news-rss/feeds/long_form.xml</link>
 <description>关注监管、合规、模型风险与治理问题，判断哪些约束会拖慢落地速度。</description>
+<item>
+<title>Google Cloud 用 AI 驱动的桌面推演，帮助金融机构提升经营韧性</title>
+<link>https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud</link>
+<guid>google-cloud-financial-services:published:0</guid>
+<description><![CDATA[<div><p><strong>栏目</strong> FinAI 的监管、合规与风险治理 <em>(What Could Slow Things Down)</em></p><p><strong>标签</strong> 地域：美国 | 行业：银行 / 保险 | 机构：Google Cloud</p><p>文章介绍了 Google Cloud 如何将 AI 驱动的桌面推演引入金融服务场景，帮助机构在银行与保险等高监管业务中提前演练风险事件、提升运营韧性。这属于 AI 与金融风险管理工作流的直接结合，而不是普通云基础设施宣传。<br /><br />原文链接：<a href="https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud" style="color:#1f5eff;font-style:italic;text-decoration:underline;">https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud</a></p></div>]]></description>
+<content:encoded><![CDATA[<div><p><strong>栏目</strong> FinAI 的监管、合规与风险治理 <em>(What Could Slow Things Down)</em></p><p><strong>标签</strong> 地域：美国 | 行业：银行 / 保险 | 机构：Google Cloud</p><p>文章介绍了 Google Cloud 如何将 AI 驱动的桌面推演引入金融服务场景，帮助机构在银行与保险等高监管业务中提前演练风险事件、提升运营韧性。这属于 AI 与金融风险管理工作流的直接结合，而不是普通云基础设施宣传。<br /><br />原文链接：<a href="https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud" style="color:#1f5eff;font-style:italic;text-decoration:underline;">https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud</a></p></div>]]></content:encoded>
+<category>FinAI 的监管、合规与风险治理</category>
+<category>published</category>
+<category>美国</category>
+<category>银行</category>
+<category>保险</category>
+<category>Google Cloud</category>
+<pubDate>2026-03-16T07:06:20.672367Z</pubDate>
+</item>
 </channel>
 </rss>

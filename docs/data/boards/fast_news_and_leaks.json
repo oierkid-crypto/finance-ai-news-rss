@@ -6,7 +6,242 @@
     "subtitle": "What is Becoming Possible",
     "description": "关注前沿 AI 技术与金融行业应用的结合，回答新的能力边界正在如何被打开。"
   },
-  "published": [],
-  "review": [],
-  "delivery": []
+  "published": [
+    {
+      "id": "simon-taylor-x:published:1",
+      "board": "fast_news_and_leaks",
+      "section_id": "what_is_becoming_possible",
+      "section_title": "FinAI 的技术与应用",
+      "section_subtitle": "What is Becoming Possible",
+      "bucket": "published",
+      "source_id": "simon-taylor-x",
+      "source_name": "Simon Taylor on X",
+      "title": "围绕 agentic commerce 和智能支付的心智争夺已经进入白热化。市场几乎都认同它会迎来爆发，只是没人能准确判断拐点何时到来。",
+      "snippet": "围绕 agentic commerce 和智能支付的心智争夺已经进入白热化。市场几乎都认同它会迎来爆发，只是没人能准确判断拐点何时到来。",
+      "url": "https://x.com/sytaylor/status/2031805900248195457",
+      "published_at": "Wed Mar 11 18:54:10 +0000 2026",
+      "tags": {
+        "region": [
+          "欧洲"
+        ],
+        "industry": [],
+        "institution": [],
+        "all": [
+          "欧洲"
+        ]
+      },
+      "metadata": {
+        "handle": "sytaylor",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Explicitly discusses 'agentic commerce and payments'—directly at AI x Finance intersection. Captures market sentiment around AI agents in financial workflows from a credible fintech/AI source. Thin on specifics but materially about AI-enabled operational change in payments.",
+        "finance_scope": "finance_mixed",
+        "legacy_board": "fast_news_and_leaks",
+        "source_region": "international",
+        "source_channel": "x",
+        "source_importance": "P0",
+        "section_description": "关注前沿 AI 技术与金融行业应用的结合，回答新的能力边界正在如何被打开。"
+      }
+    },
+    {
+      "id": "google-cloud-financial-services:published:1",
+      "board": "fast_news_and_leaks",
+      "section_id": "what_is_becoming_possible",
+      "section_title": "FinAI 的技术与应用",
+      "section_subtitle": "What is Becoming Possible",
+      "bucket": "published",
+      "source_id": "google-cloud-financial-services",
+      "source_name": "Google Cloud Financial Services",
+      "title": "PayPal 与 Google Cloud 推出面向商户的 Agentic Commerce 解决方案",
+      "snippet": "文章聚焦 PayPal 与 Google Cloud 联合推出的 agentic commerce 方案，核心是让 AI Agent 真正参与商户支付与交易流程。这是支付与商业场景中的明确 AI 工作流落地。",
+      "url": "https://cloud.google.com/blog/topics/financial-services/introducing-an-agentic-commerce-solution-for-merchants-from-paypal-and-google-cloud",
+      "published_at": "2026-03-16T07:06:20.672367Z",
+      "tags": {
+        "region": [
+          "美国"
+        ],
+        "industry": [],
+        "institution": [
+          "Google Cloud",
+          "PayPal"
+        ],
+        "all": [
+          "美国",
+          "Google Cloud",
+          "PayPal"
+        ]
+      },
+      "metadata": {
+        "used_path": "primary",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Title explicitly mentions 'agentic commerce solution' (AI agents) from PayPal (major payments fintech) and Google Cloud, targeting merchants. This is a clear AI-enabled workflow in the payments/commerce sector. Source is finance_dedicated and content is materially about AI applied to financial services.",
+        "finance_scope": "finance_dedicated",
+        "legacy_board": "direct_rss",
+        "source_region": "international",
+        "source_channel": "website_blog_news",
+        "source_importance": "P0",
+        "section_description": "关注前沿 AI 技术与金融行业应用的结合，回答新的能力边界正在如何被打开。"
+      }
+    }
+  ],
+  "review": [
+    {
+      "id": "11fs-youtube:review:0",
+      "board": "fast_news_and_leaks",
+      "section_id": "what_is_becoming_possible",
+      "section_title": "FinAI 的技术与应用",
+      "section_subtitle": "What is Becoming Possible",
+      "bucket": "review",
+      "source_id": "11fs-youtube",
+      "source_name": "11FS YouTube",
+      "title": "1045｜洞察：银行竞争格局是否已经改变，Revolut 是否准备好了？",
+      "snippet": "节目围绕银行业竞争格局、传统机构与金融科技公司的攻防，以及 Revolut 所处的位置展开。公开摘要仍偏商业与战略分析，没有足够信息证明 AI 是核心主题，因此保留在待审队列。",
+      "url": "https://www.youtube.com/watch?v=ObOhqvHeITg",
+      "published_at": "2026-03-16T06:21:06.788232Z",
+      "tags": {
+        "region": [
+          "欧洲"
+        ],
+        "industry": [
+          "银行"
+        ],
+        "institution": [
+          "11FS"
+        ],
+        "all": [
+          "欧洲",
+          "银行",
+          "11FS"
+        ]
+      },
+      "metadata": {
+        "used_path": "primary",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Snippet is too thin to determine if AI is materially discussed. While the source is finance_dedicated and the topic (banking competition, Revolut's tech) plausibly involves AI, the description only mentions generic 'better tech and customer experience' without specifying AI, ML, or AI-enabled operational change. Cannot confirm if AI is central or peripheral.",
+        "finance_scope": "finance_dedicated",
+        "legacy_board": "long_form",
+        "source_region": "international",
+        "source_channel": "youtube",
+        "source_importance": "P0",
+        "section_description": "关注前沿 AI 技术与金融行业应用的结合，回答新的能力边界正在如何被打开。"
+      }
+    },
+    {
+      "id": "11fs-youtube:review:1",
+      "board": "fast_news_and_leaks",
+      "section_id": "what_is_becoming_possible",
+      "section_title": "FinAI 的技术与应用",
+      "section_subtitle": "What is Becoming Possible",
+      "bucket": "review",
+      "source_id": "11fs-youtube",
+      "source_name": "11FS YouTube",
+      "title": "1043｜洞察：汇丰创新银行英国业务的未来，专访新任 CEO Emily Turner",
+      "snippet": "本期节目中，11:FS 邀请汇丰创新银行英国业务新任 CEO Emily Turner 讨论领导力、创新银行业务与未来战略。目前公开摘要没有明确出现 AI 主题，因此更适合作为待审内容，而非直接发布。",
+      "url": "https://www.youtube.com/watch?v=4BYnraHPANc",
+      "published_at": "2026-03-16T06:21:06.788232Z",
+      "tags": {
+        "region": [
+          "欧洲"
+        ],
+        "industry": [
+          "银行"
+        ],
+        "institution": [
+          "11FS"
+        ],
+        "all": [
+          "欧洲",
+          "银行",
+          "11FS"
+        ]
+      },
+      "metadata": {
+        "used_path": "primary",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Title and snippet reference HSBC Innovation Banking UK and leadership but contain no explicit mention of AI, machine learning, or AI-enabled operational changes. While the source is finance-dedicated, the AI relevance cannot be confirmed from the available information. A reviewer should verify if the interview materially covers AI topics.",
+        "finance_scope": "finance_dedicated",
+        "legacy_board": "long_form",
+        "source_region": "international",
+        "source_channel": "youtube",
+        "source_importance": "P0",
+        "section_description": "关注前沿 AI 技术与金融行业应用的结合，回答新的能力边界正在如何被打开。"
+      }
+    }
+  ],
+  "delivery": [
+    {
+      "id": "simon-taylor-x:published:1",
+      "board": "fast_news_and_leaks",
+      "section_id": "what_is_becoming_possible",
+      "section_title": "FinAI 的技术与应用",
+      "section_subtitle": "What is Becoming Possible",
+      "bucket": "published",
+      "source_id": "simon-taylor-x",
+      "source_name": "Simon Taylor on X",
+      "title": "围绕 agentic commerce 和智能支付的心智争夺已经进入白热化。市场几乎都认同它会迎来爆发，只是没人能准确判断拐点何时到来。",
+      "snippet": "围绕 agentic commerce 和智能支付的心智争夺已经进入白热化。市场几乎都认同它会迎来爆发，只是没人能准确判断拐点何时到来。",
+      "url": "https://x.com/sytaylor/status/2031805900248195457",
+      "published_at": "Wed Mar 11 18:54:10 +0000 2026",
+      "tags": {
+        "region": [
+          "欧洲"
+        ],
+        "industry": [],
+        "institution": [],
+        "all": [
+          "欧洲"
+        ]
+      },
+      "metadata": {
+        "handle": "sytaylor",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Explicitly discusses 'agentic commerce and payments'—directly at AI x Finance intersection. Captures market sentiment around AI agents in financial workflows from a credible fintech/AI source. Thin on specifics but materially about AI-enabled operational change in payments.",
+        "finance_scope": "finance_mixed",
+        "legacy_board": "fast_news_and_leaks",
+        "source_region": "international",
+        "source_channel": "x",
+        "source_importance": "P0",
+        "section_description": "关注前沿 AI 技术与金融行业应用的结合，回答新的能力边界正在如何被打开。"
+      }
+    },
+    {
+      "id": "google-cloud-financial-services:published:1",
+      "board": "fast_news_and_leaks",
+      "section_id": "what_is_becoming_possible",
+      "section_title": "FinAI 的技术与应用",
+      "section_subtitle": "What is Becoming Possible",
+      "bucket": "published",
+      "source_id": "google-cloud-financial-services",
+      "source_name": "Google Cloud Financial Services",
+      "title": "PayPal 与 Google Cloud 推出面向商户的 Agentic Commerce 解决方案",
+      "snippet": "文章聚焦 PayPal 与 Google Cloud 联合推出的 agentic commerce 方案，核心是让 AI Agent 真正参与商户支付与交易流程。这是支付与商业场景中的明确 AI 工作流落地。",
+      "url": "https://cloud.google.com/blog/topics/financial-services/introducing-an-agentic-commerce-solution-for-merchants-from-paypal-and-google-cloud",
+      "published_at": "2026-03-16T07:06:20.672367Z",
+      "tags": {
+        "region": [
+          "美国"
+        ],
+        "industry": [],
+        "institution": [
+          "Google Cloud",
+          "PayPal"
+        ],
+        "all": [
+          "美国",
+          "Google Cloud",
+          "PayPal"
+        ]
+      },
+      "metadata": {
+        "used_path": "primary",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Title explicitly mentions 'agentic commerce solution' (AI agents) from PayPal (major payments fintech) and Google Cloud, targeting merchants. This is a clear AI-enabled workflow in the payments/commerce sector. Source is finance_dedicated and content is materially about AI applied to financial services.",
+        "finance_scope": "finance_dedicated",
+        "legacy_board": "direct_rss",
+        "source_region": "international",
+        "source_channel": "website_blog_news",
+        "source_importance": "P0",
+        "section_description": "关注前沿 AI 技术与金融行业应用的结合，回答新的能力边界正在如何被打开。"
+      }
+    }
+  ]
 }

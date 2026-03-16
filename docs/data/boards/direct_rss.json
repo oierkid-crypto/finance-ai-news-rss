@@ -6,7 +6,322 @@
     "subtitle": "Who is Doing What",
     "description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
   },
-  "published": [],
-  "review": [],
-  "delivery": []
+  "published": [
+    {
+      "id": "simon-taylor-x:published:2",
+      "board": "direct_rss",
+      "section_id": "who_is_doing_what",
+      "section_title": "FinAI 的最新动向",
+      "section_subtitle": "Who is Doing What",
+      "bucket": "published",
+      "source_id": "simon-taylor-x",
+      "source_name": "Simon Taylor on X",
+      "title": "Ramp 推出了专为 AI Agent 设计的“Agent Cards”，让 Agent 可以拥有自己的信用卡。产品提供支出限额、商户控制、不暴露卡号，并原生支持 API、MCP 和命令行调用。与此同时，加密行业也在押注：未来 Agent…",
+      "snippet": "Ramp 推出了专为 AI Agent 设计的“Agent Cards”，让 Agent 可以拥有自己的信用卡。产品提供支出限额、商户控制、不暴露卡号，并原生支持 API、MCP 和命令行调用。与此同时，加密行业也在押注：未来 Agent 可能会跳过银行卡，直接使用稳定币支付。",
+      "url": "https://x.com/sytaylor/status/2031804012886917519",
+      "published_at": "Wed Mar 11 18:46:40 +0000 2026",
+      "tags": {
+        "region": [
+          "欧洲"
+        ],
+        "industry": [
+          "银行"
+        ],
+        "institution": [
+          "Ramp"
+        ],
+        "all": [
+          "欧洲",
+          "银行",
+          "Ramp"
+        ]
+      },
+      "metadata": {
+        "handle": "sytaylor",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Clear AI-finance intersection: Ramp launching credit cards specifically designed for AI agents with programmatic controls (spend limits, merchant controls, API/MCP/CLI native). Directly impacts automated financial workflows and agent-based payment infrastructure.",
+        "finance_scope": "finance_mixed",
+        "legacy_board": "fast_news_and_leaks",
+        "source_region": "international",
+        "source_channel": "x",
+        "source_importance": "P0",
+        "section_description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
+      }
+    },
+    {
+      "id": "simon-taylor-x:published:3",
+      "board": "direct_rss",
+      "section_id": "who_is_doing_what",
+      "section_title": "FinAI 的最新动向",
+      "section_subtitle": "Who is Doing What",
+      "bucket": "published",
+      "source_id": "simon-taylor-x",
+      "source_name": "Simon Taylor on X",
+      "title": "AI Agent 搭配虚拟卡，正在成为支付领域的新范式。",
+      "snippet": "AI Agent 搭配虚拟卡，正在成为支付领域的新范式。",
+      "url": "https://x.com/sytaylor/status/2031802316341276689",
+      "published_at": "Wed Mar 11 18:39:55 +0000 2026",
+      "tags": {
+        "region": [
+          "欧洲"
+        ],
+        "industry": [],
+        "institution": [],
+        "all": [
+          "欧洲"
+        ]
+      },
+      "metadata": {
+        "handle": "sytaylor",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "The tweet explicitly connects AI agents with virtual cards, directly addressing AI-enabled payment workflows. While brief, the source is explicitly noted as a strong radar for fintech+AI, and the semantic meaning is clear: this identifies a strategic trend at the intersection of AI and finance. Appropriate for a fast news board.",
+        "finance_scope": "finance_mixed",
+        "legacy_board": "fast_news_and_leaks",
+        "source_region": "international",
+        "source_channel": "x",
+        "source_importance": "P0",
+        "section_description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
+      }
+    },
+    {
+      "id": "simon-taylor-x:published:0",
+      "board": "direct_rss",
+      "section_id": "who_is_doing_what",
+      "section_title": "FinAI 的最新动向",
+      "section_subtitle": "Who is Doing What",
+      "bucket": "published",
+      "source_id": "simon-taylor-x",
+      "source_name": "Simon Taylor on X",
+      "title": "Perplexity 正在把“免费版彭博终端”带给每一个零售投资者。它通过 Plaid 连接券商账户，几秒钟内生成定制化投资看板，并可调用 40 多个实时金融工具，显著降低个人投资者使用金融智能工具的门槛。",
+      "snippet": "Perplexity 正在把“免费版彭博终端”带给每一个零售投资者。它通过 Plaid 连接券商账户，几秒钟内生成定制化投资看板，并可调用 40 多个实时金融工具，显著降低个人投资者使用金融智能工具的门槛。",
+      "url": "https://x.com/sytaylor/status/2032403765307867575",
+      "published_at": "Fri Mar 13 10:29:52 +0000 2026",
+      "tags": {
+        "region": [
+          "美国"
+        ],
+        "industry": [
+          "券商"
+        ],
+        "institution": [
+          "Plaid"
+        ],
+        "all": [
+          "美国",
+          "券商",
+          "Plaid"
+        ]
+      },
+      "metadata": {
+        "handle": "sytaylor",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Explicit AI-powered finance tool: Perplexity AI integrates with brokerage accounts via Plaid to build custom investment dashboards for retail investors, pulling from 40+ live finance data sources. Directly addresses AI-enabled wealth management workflow.",
+        "finance_scope": "finance_mixed",
+        "legacy_board": "fast_news_and_leaks",
+        "source_region": "international",
+        "source_channel": "x",
+        "source_importance": "P0",
+        "section_description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
+      }
+    }
+  ],
+  "review": [
+    {
+      "id": "google-cloud-financial-services:review:0",
+      "board": "direct_rss",
+      "section_id": "who_is_doing_what",
+      "section_title": "FinAI 的最新动向",
+      "section_subtitle": "Who is Doing What",
+      "bucket": "review",
+      "source_id": "google-cloud-financial-services",
+      "source_name": "Google Cloud Financial Services",
+      "title": "CME Group 如何基于 Cloud SQL 打造更快、更智能的交易所系统",
+      "snippet": "标题提到“更智能的交易所”，但当前摘要主要围绕 Cloud SQL 数据库与系统性能优化展开，还无法确认 AI 或机器学习是否是核心组成部分，需要人工阅读全文再判断。",
+      "url": "https://cloud.google.com/blog/topics/financial-services/how-cme-group-builds-a-faster-smarter-exchange-on-cloud-sql",
+      "published_at": "2026-03-16T07:06:20.672367Z",
+      "tags": {
+        "region": [
+          "美国"
+        ],
+        "industry": [],
+        "institution": [
+          "Google Cloud",
+          "CME Group"
+        ],
+        "all": [
+          "美国",
+          "Google Cloud",
+          "CME Group"
+        ]
+      },
+      "metadata": {
+        "used_path": "primary",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Title mentions 'smarter exchange' but the core technology is Cloud SQL (a managed database service). The snippet is too brief to determine if AI/ML is materially involved in CME Group's implementation or if 'smarter' is just marketing language for general cloud modernization. Need to review full article to confirm AI relevance.",
+        "finance_scope": "finance_dedicated",
+        "legacy_board": "direct_rss",
+        "source_region": "international",
+        "source_channel": "website_blog_news",
+        "source_importance": "P0",
+        "section_description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
+      }
+    },
+    {
+      "id": "google-cloud-financial-services:review:1",
+      "board": "direct_rss",
+      "section_id": "who_is_doing_what",
+      "section_title": "FinAI 的最新动向",
+      "section_subtitle": "Who is Doing What",
+      "bucket": "review",
+      "source_id": "google-cloud-financial-services",
+      "source_name": "Google Cloud Financial Services",
+      "title": "Google Cloud 与 AMD 在纽约 STAC 峰会介绍面向金融负载的 H4D 虚拟机",
+      "snippet": "目前能看到的信息主要是金融行业高性能计算虚拟机的性能介绍。虽然这类基础设施可能承载 AI 负载，但摘要没有明确说明 AI 是否是文章重点，因此仍应进入人工审核。",
+      "url": "https://cloud.google.com/blog/topics/hpc/h4d-delivers-strong-performance-for-financial-services-workloads",
+      "published_at": "2026-03-16T07:06:20.672367Z",
+      "tags": {
+        "region": [
+          "美国"
+        ],
+        "industry": [],
+        "institution": [
+          "Google Cloud"
+        ],
+        "all": [
+          "美国",
+          "Google Cloud"
+        ]
+      },
+      "metadata": {
+        "used_path": "primary",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "The provided snippet contains only source metadata, not actual article content. While the title mentions HPC VMs for finance (which could support AI workloads), there is no explicit mention of AI, machine learning, or AI-enabled workflows. Cannot determine if AI is central to the story without seeing the actual content.",
+        "finance_scope": "finance_dedicated",
+        "legacy_board": "direct_rss",
+        "source_region": "international",
+        "source_channel": "website_blog_news",
+        "source_importance": "P0",
+        "section_description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
+      }
+    }
+  ],
+  "delivery": [
+    {
+      "id": "simon-taylor-x:published:2",
+      "board": "direct_rss",
+      "section_id": "who_is_doing_what",
+      "section_title": "FinAI 的最新动向",
+      "section_subtitle": "Who is Doing What",
+      "bucket": "published",
+      "source_id": "simon-taylor-x",
+      "source_name": "Simon Taylor on X",
+      "title": "Ramp 推出了专为 AI Agent 设计的“Agent Cards”，让 Agent 可以拥有自己的信用卡。产品提供支出限额、商户控制、不暴露卡号，并原生支持 API、MCP 和命令行调用。与此同时，加密行业也在押注：未来 Agent…",
+      "snippet": "Ramp 推出了专为 AI Agent 设计的“Agent Cards”，让 Agent 可以拥有自己的信用卡。产品提供支出限额、商户控制、不暴露卡号，并原生支持 API、MCP 和命令行调用。与此同时，加密行业也在押注：未来 Agent 可能会跳过银行卡，直接使用稳定币支付。",
+      "url": "https://x.com/sytaylor/status/2031804012886917519",
+      "published_at": "Wed Mar 11 18:46:40 +0000 2026",
+      "tags": {
+        "region": [
+          "欧洲"
+        ],
+        "industry": [
+          "银行"
+        ],
+        "institution": [
+          "Ramp"
+        ],
+        "all": [
+          "欧洲",
+          "银行",
+          "Ramp"
+        ]
+      },
+      "metadata": {
+        "handle": "sytaylor",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Clear AI-finance intersection: Ramp launching credit cards specifically designed for AI agents with programmatic controls (spend limits, merchant controls, API/MCP/CLI native). Directly impacts automated financial workflows and agent-based payment infrastructure.",
+        "finance_scope": "finance_mixed",
+        "legacy_board": "fast_news_and_leaks",
+        "source_region": "international",
+        "source_channel": "x",
+        "source_importance": "P0",
+        "section_description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
+      }
+    },
+    {
+      "id": "simon-taylor-x:published:3",
+      "board": "direct_rss",
+      "section_id": "who_is_doing_what",
+      "section_title": "FinAI 的最新动向",
+      "section_subtitle": "Who is Doing What",
+      "bucket": "published",
+      "source_id": "simon-taylor-x",
+      "source_name": "Simon Taylor on X",
+      "title": "AI Agent 搭配虚拟卡，正在成为支付领域的新范式。",
+      "snippet": "AI Agent 搭配虚拟卡，正在成为支付领域的新范式。",
+      "url": "https://x.com/sytaylor/status/2031802316341276689",
+      "published_at": "Wed Mar 11 18:39:55 +0000 2026",
+      "tags": {
+        "region": [
+          "欧洲"
+        ],
+        "industry": [],
+        "institution": [],
+        "all": [
+          "欧洲"
+        ]
+      },
+      "metadata": {
+        "handle": "sytaylor",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "The tweet explicitly connects AI agents with virtual cards, directly addressing AI-enabled payment workflows. While brief, the source is explicitly noted as a strong radar for fintech+AI, and the semantic meaning is clear: this identifies a strategic trend at the intersection of AI and finance. Appropriate for a fast news board.",
+        "finance_scope": "finance_mixed",
+        "legacy_board": "fast_news_and_leaks",
+        "source_region": "international",
+        "source_channel": "x",
+        "source_importance": "P0",
+        "section_description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
+      }
+    },
+    {
+      "id": "simon-taylor-x:published:0",
+      "board": "direct_rss",
+      "section_id": "who_is_doing_what",
+      "section_title": "FinAI 的最新动向",
+      "section_subtitle": "Who is Doing What",
+      "bucket": "published",
+      "source_id": "simon-taylor-x",
+      "source_name": "Simon Taylor on X",
+      "title": "Perplexity 正在把“免费版彭博终端”带给每一个零售投资者。它通过 Plaid 连接券商账户，几秒钟内生成定制化投资看板，并可调用 40 多个实时金融工具，显著降低个人投资者使用金融智能工具的门槛。",
+      "snippet": "Perplexity 正在把“免费版彭博终端”带给每一个零售投资者。它通过 Plaid 连接券商账户，几秒钟内生成定制化投资看板，并可调用 40 多个实时金融工具，显著降低个人投资者使用金融智能工具的门槛。",
+      "url": "https://x.com/sytaylor/status/2032403765307867575",
+      "published_at": "Fri Mar 13 10:29:52 +0000 2026",
+      "tags": {
+        "region": [
+          "美国"
+        ],
+        "industry": [
+          "券商"
+        ],
+        "institution": [
+          "Plaid"
+        ],
+        "all": [
+          "美国",
+          "券商",
+          "Plaid"
+        ]
+      },
+      "metadata": {
+        "handle": "sytaylor",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Explicit AI-powered finance tool: Perplexity AI integrates with brokerage accounts via Plaid to build custom investment dashboards for retail investors, pulling from 40+ live finance data sources. Directly addresses AI-enabled wealth management workflow.",
+        "finance_scope": "finance_mixed",
+        "legacy_board": "fast_news_and_leaks",
+        "source_region": "international",
+        "source_channel": "x",
+        "source_importance": "P0",
+        "section_description": "关注全球 Finance x AI 项目、投资并购与组织人事变化，尤其追踪大型金融机构谁在做什么。"
+      }
+    }
+  ]
 }

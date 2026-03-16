@@ -6,7 +6,95 @@
     "subtitle": "What Could Slow Things Down",
     "description": "关注监管、合规、模型风险与治理问题，判断哪些约束会拖慢落地速度。"
   },
-  "published": [],
+  "published": [
+    {
+      "id": "google-cloud-financial-services:published:0",
+      "board": "long_form",
+      "section_id": "what_could_slow_things_down",
+      "section_title": "FinAI 的监管、合规与风险治理",
+      "section_subtitle": "What Could Slow Things Down",
+      "bucket": "published",
+      "source_id": "google-cloud-financial-services",
+      "source_name": "Google Cloud Financial Services",
+      "title": "Google Cloud 用 AI 驱动的桌面推演，帮助金融机构提升经营韧性",
+      "snippet": "文章介绍了 Google Cloud 如何将 AI 驱动的桌面推演引入金融服务场景，帮助机构在银行与保险等高监管业务中提前演练风险事件、提升运营韧性。这属于 AI 与金融风险管理工作流的直接结合，而不是普通云基础设施宣传。",
+      "url": "https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud",
+      "published_at": "2026-03-16T07:06:20.672367Z",
+      "tags": {
+        "region": [
+          "美国"
+        ],
+        "industry": [
+          "银行",
+          "保险"
+        ],
+        "institution": [
+          "Google Cloud"
+        ],
+        "all": [
+          "美国",
+          "银行",
+          "保险",
+          "Google Cloud"
+        ]
+      },
+      "metadata": {
+        "used_path": "primary",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Title explicitly describes 'AI-powered tabletop exercises' for financial services resilience—directly intersects AI-enabled workflows with banking/insurance operational risk management. Source is finance-dedicated and content is materially about AI application, not generic cloud tooling.",
+        "finance_scope": "finance_dedicated",
+        "legacy_board": "direct_rss",
+        "source_region": "international",
+        "source_channel": "website_blog_news",
+        "source_importance": "P0",
+        "section_description": "关注监管、合规、模型风险与治理问题，判断哪些约束会拖慢落地速度。"
+      }
+    }
+  ],
   "review": [],
-  "delivery": []
+  "delivery": [
+    {
+      "id": "google-cloud-financial-services:published:0",
+      "board": "long_form",
+      "section_id": "what_could_slow_things_down",
+      "section_title": "FinAI 的监管、合规与风险治理",
+      "section_subtitle": "What Could Slow Things Down",
+      "bucket": "published",
+      "source_id": "google-cloud-financial-services",
+      "source_name": "Google Cloud Financial Services",
+      "title": "Google Cloud 用 AI 驱动的桌面推演，帮助金融机构提升经营韧性",
+      "snippet": "文章介绍了 Google Cloud 如何将 AI 驱动的桌面推演引入金融服务场景，帮助机构在银行与保险等高监管业务中提前演练风险事件、提升运营韧性。这属于 AI 与金融风险管理工作流的直接结合，而不是普通云基础设施宣传。",
+      "url": "https://cloud.google.com/blog/topics/financial-services/improve-financial-resilience-with-google-cloud",
+      "published_at": "2026-03-16T07:06:20.672367Z",
+      "tags": {
+        "region": [
+          "美国"
+        ],
+        "industry": [
+          "银行",
+          "保险"
+        ],
+        "institution": [
+          "Google Cloud"
+        ],
+        "all": [
+          "美国",
+          "银行",
+          "保险",
+          "Google Cloud"
+        ]
+      },
+      "metadata": {
+        "used_path": "primary",
+        "filter_provider": "openai_compatible_with_fallback",
+        "filter_reason": "Title explicitly describes 'AI-powered tabletop exercises' for financial services resilience—directly intersects AI-enabled workflows with banking/insurance operational risk management. Source is finance-dedicated and content is materially about AI application, not generic cloud tooling.",
+        "finance_scope": "finance_dedicated",
+        "legacy_board": "direct_rss",
+        "source_region": "international",
+        "source_channel": "website_blog_news",
+        "source_importance": "P0",
+        "section_description": "关注监管、合规、模型风险与治理问题，判断哪些约束会拖慢落地速度。"
+      }
+    }
+  ]
 }

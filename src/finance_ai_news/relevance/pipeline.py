@@ -32,6 +32,21 @@ GENERIC_URL_PATTERNS = (
 )
 
 
+def _looks_like_index_url(url: str) -> bool:
+    for pattern in GENERIC_URL_PATTERNS:
+        if pattern not in url:
+            continue
+        suffix = url.split(pattern, 1)[1].strip("/")
+        if not suffix:
+            return True
+        # Some publishers, such as Google Cloud, place article slugs under
+        # category-like segments (`/topics/financial-services/article-slug`).
+        # Treat only shallow URLs as index pages and allow deeper article paths.
+        if "/" not in suffix:
+            return True
+    return False
+
+
 def build_candidate(
     source: Source,
     item: dict,
@@ -70,7 +85,7 @@ def _structural_reject_reason(source: Source, candidate: Candidate) -> str | Non
         return "Candidate looks like a generic call-to-action instead of a real item."
     if any(lowered_title.startswith(prefix) for prefix in GENERIC_TITLE_PREFIXES):
         return "Candidate title looks like a product or navigation summary, not an article."
-    if any(pattern in lowered_url for pattern in GENERIC_URL_PATTERNS):
+    if _looks_like_index_url(lowered_url):
         return "Candidate URL points to a category or product index rather than a specific item."
     if lowered_url and lowered_url.rstrip("/") in {primary_url, fallback_url}:
         return "Candidate points back to the listing page instead of a distinct item."
