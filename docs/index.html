@@ -47,10 +47,10 @@
       <section class="controls">
         <button id="refresh-button" class="primary">Refresh Pipeline</button>
         <div class="feed-links">
-          <a href="./feeds/all.xml" target="_blank">All Feeds</a>
-          <a href="./feeds/direct_rss.xml" target="_blank">Direct RSS Feed</a>
-          <a href="./feeds/fast_news_and_leaks.xml" target="_blank">Fast News Feed</a>
-          <a href="./feeds/long_form.xml" target="_blank">Long Form Feed</a>
+          <a href="./feeds/all.xml" target="_blank">全部栏目</a>
+          <a href="./feeds/direct_rss.xml" target="_blank">最新动向</a>
+          <a href="./feeds/fast_news_and_leaks.xml" target="_blank">技术与应用</a>
+          <a href="./feeds/long_form.xml" target="_blank">监管与治理</a>
         </div>
       </section>
 
@@ -58,33 +58,39 @@
         <article class="board">
           <div class="board-head">
             <div>
-              <p class="board-tag">Board 01</p>
-              <h2>Direct RSS</h2>
+              <p class="board-tag" id="direct-tag">栏目 01</p>
+              <h2 id="direct-title">FinAI 的最新动向</h2>
+              <p class="board-subtitle" id="direct-subtitle">Who is Doing What</p>
             </div>
             <span class="board-status" id="direct-status">Preview</span>
           </div>
+          <p class="board-description" id="direct-description"></p>
           <div class="card-grid" id="direct_rss"></div>
         </article>
 
         <article class="board">
           <div class="board-head">
             <div>
-              <p class="board-tag">Board 02</p>
-              <h2>Fast News & Leaks</h2>
+              <p class="board-tag" id="fast-tag">栏目 02</p>
+              <h2 id="fast-title">FinAI 的技术与应用</h2>
+              <p class="board-subtitle" id="fast-subtitle">What is Becoming Possible</p>
             </div>
             <span class="board-status" id="fast-status">Preview</span>
           </div>
+          <p class="board-description" id="fast-description"></p>
           <div class="card-grid" id="fast_news_and_leaks"></div>
         </article>
 
         <article class="board">
           <div class="board-head">
             <div>
-              <p class="board-tag">Board 03</p>
-              <h2>Long Form</h2>
+              <p class="board-tag" id="long-tag">栏目 03</p>
+              <h2 id="long-title">FinAI 的监管、合规与风险治理</h2>
+              <p class="board-subtitle" id="long-subtitle">What Could Slow Things Down</p>
             </div>
             <span class="board-status" id="long-status">Preview</span>
           </div>
+          <p class="board-description" id="long-description"></p>
           <div class="card-grid" id="long_form"></div>
         </article>
       </section>
@@ -100,15 +106,15 @@
           </div>
           <div class="review-grid">
             <div class="review-column">
-              <h3>Direct RSS</h3>
+              <h3>最新动向</h3>
               <div class="mini-grid" id="direct_rss_review"></div>
             </div>
             <div class="review-column">
-              <h3>Fast News & Leaks</h3>
+              <h3>技术与应用</h3>
               <div class="mini-grid" id="fast_news_and_leaks_review"></div>
             </div>
             <div class="review-column">
-              <h3>Long Form</h3>
+              <h3>监管与治理</h3>
               <div class="mini-grid" id="long_form_review"></div>
             </div>
           </div>
@@ -123,9 +129,9 @@
         <article class="panel">
           <h3>How It Works</h3>
           <ol>
-            <li>Adapters fetch the cheapest candidate list from each source family.</li>
-            <li>A semantic filter decides accept, reject, or review.</li>
-            <li>Only accepted items should become the final paid feed.</li>
+            <li>采集器先从每类信源抓取候选内容。</li>
+            <li>语义过滤器判断是否保留、淘汰或进入待审。</li>
+            <li>产品层再做栏目分类与多维标签化，生成最终 RSS。</li>
           </ol>
         </article>
       </section>

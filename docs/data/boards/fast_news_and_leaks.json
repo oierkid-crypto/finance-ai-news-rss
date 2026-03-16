@@ -1,109 +1,12 @@
 {
-  "published": [
-    {
-      "id": "simon-taylor-x:published:0",
-      "board": "fast_news_and_leaks",
-      "bucket": "published",
-      "source_id": "simon-taylor-x",
-      "source_name": "Simon Taylor on X",
-      "title": "The thirst for mindshare in agentic commerce and payments is UNHINGED rn.  Everyone knows it will go parabolic.  Nobody…",
-      "snippet": "The thirst for mindshare in agentic commerce and payments is UNHINGED rn.\n\nEveryone knows it will go parabolic.\n\nNobody knows when. \n\nSuch a weird dynamic.",
-      "url": "https://x.com/sytaylor/status/2031805900248195457",
-      "published_at": "Wed Mar 11 18:54:10 +0000 2026",
-      "metadata": {
-        "handle": "",
-        "filter_provider": "openai_compatible_with_fallback",
-        "filter_reason": "Explicitly discusses 'agentic commerce and payments,' directly addressing AI agents and the payments industry with commentary on market dynamics and growth expectations.",
-        "finance_scope": ""
-      }
-    },
-    {
-      "id": "simon-taylor-x:published:1",
-      "board": "fast_news_and_leaks",
-      "bucket": "published",
-      "source_id": "simon-taylor-x",
-      "source_name": "Simon Taylor on X",
-      "title": "Wild. @tryramp gave agents have their own credit cards 💳  They launched \"Agent Cards\" today.  Spend limits.  Merchant c…",
-      "snippet": "Wild. @tryramp gave agents have their own credit cards 💳\n\nThey launched \"Agent Cards\" today.\n\nSpend limits. \nMerchant controls. \nNo card numbers exposed. \nAPI/MCP/CLI native 😍\n\n---\n\nThe crypto crowd is betting agents will skip cards entirely and pay in stablecoins.\n\nThey're https://t.co/Qnd0QYtpHW",
-      "url": "https://x.com/sytaylor/status/2031804012886917519",
-      "published_at": "Wed Mar 11 18:46:40 +0000 2026",
-      "metadata": {
-        "handle": "",
-        "filter_provider": "openai_compatible_with_fallback",
-        "filter_reason": "The post explicitly discusses Ramp launching 'Agent Cards' - credit cards designed for AI agents with spend limits and merchant controls. This is a direct intersection of AI agents and financial payments infrastructure. Also mentions stablecoins as an alternative payment method for agents, reinforcing the AI+finance theme.",
-        "finance_scope": ""
-      }
-    },
-    {
-      "id": "simon-taylor-x:published:2",
-      "board": "fast_news_and_leaks",
-      "bucket": "published",
-      "source_id": "simon-taylor-x",
-      "source_name": "Simon Taylor on X",
-      "title": "Agents with Virtual cards is the meta",
-      "snippet": "Agents with Virtual cards is the meta",
-      "url": "https://x.com/sytaylor/status/2031802316341276689",
-      "published_at": "Wed Mar 11 18:39:55 +0000 2026",
-      "metadata": {
-        "handle": "",
-        "filter_provider": "openai_compatible_with_fallback",
-        "filter_reason": "The post explicitly mentions 'Agents' (AI agents) and 'Virtual cards' (financial/payment product), directly addressing their intersection as a trend/meta.",
-        "finance_scope": ""
-      }
-    }
-  ],
+  "meta": {
+    "slug": "fast_news_and_leaks",
+    "section_id": "what_is_becoming_possible",
+    "title": "FinAI 的技术与应用",
+    "subtitle": "What is Becoming Possible",
+    "description": "关注前沿 AI 技术与金融行业应用的结合，回答新的能力边界正在如何被打开。"
+  },
+  "published": [],
   "review": [],
-  "delivery": [
-    {
-      "id": "simon-taylor-x:published:0",
-      "board": "fast_news_and_leaks",
-      "bucket": "published",
-      "source_id": "simon-taylor-x",
-      "source_name": "Simon Taylor on X",
-      "title": "The thirst for mindshare in agentic commerce and payments is UNHINGED rn.  Everyone knows it will go parabolic.  Nobody…",
-      "snippet": "The thirst for mindshare in agentic commerce and payments is UNHINGED rn.\n\nEveryone knows it will go parabolic.\n\nNobody knows when. \n\nSuch a weird dynamic.",
-      "url": "https://x.com/sytaylor/status/2031805900248195457",
-      "published_at": "Wed Mar 11 18:54:10 +0000 2026",
-      "metadata": {
-        "handle": "",
-        "filter_provider": "openai_compatible_with_fallback",
-        "filter_reason": "Explicitly discusses 'agentic commerce and payments,' directly addressing AI agents and the payments industry with commentary on market dynamics and growth expectations.",
-        "finance_scope": ""
-      }
-    },
-    {
-      "id": "simon-taylor-x:published:1",
-      "board": "fast_news_and_leaks",
-      "bucket": "published",
-      "source_id": "simon-taylor-x",
-      "source_name": "Simon Taylor on X",
-      "title": "Wild. @tryramp gave agents have their own credit cards 💳  They launched \"Agent Cards\" today.  Spend limits.  Merchant c…",
-      "snippet": "Wild. @tryramp gave agents have their own credit cards 💳\n\nThey launched \"Agent Cards\" today.\n\nSpend limits. \nMerchant controls. \nNo card numbers exposed. \nAPI/MCP/CLI native 😍\n\n---\n\nThe crypto crowd is betting agents will skip cards entirely and pay in stablecoins.\n\nThey're https://t.co/Qnd0QYtpHW",
-      "url": "https://x.com/sytaylor/status/2031804012886917519",
-      "published_at": "Wed Mar 11 18:46:40 +0000 2026",
-      "metadata": {
-        "handle": "",
-        "filter_provider": "openai_compatible_with_fallback",
-        "filter_reason": "The post explicitly discusses Ramp launching 'Agent Cards' - credit cards designed for AI agents with spend limits and merchant controls. This is a direct intersection of AI agents and financial payments infrastructure. Also mentions stablecoins as an alternative payment method for agents, reinforcing the AI+finance theme.",
-        "finance_scope": ""
-      }
-    },
-    {
-      "id": "simon-taylor-x:published:2",
-      "board": "fast_news_and_leaks",
-      "bucket": "published",
-      "source_id": "simon-taylor-x",
-      "source_name": "Simon Taylor on X",
-      "title": "Agents with Virtual cards is the meta",
-      "snippet": "Agents with Virtual cards is the meta",
-      "url": "https://x.com/sytaylor/status/2031802316341276689",
-      "published_at": "Wed Mar 11 18:39:55 +0000 2026",
-      "metadata": {
-        "handle": "",
-        "filter_provider": "openai_compatible_with_fallback",
-        "filter_reason": "The post explicitly mentions 'Agents' (AI agents) and 'Virtual cards' (financial/payment product), directly addressing their intersection as a trend/meta.",
-        "finance_scope": ""
-      }
-    }
-  ]
+  "delivery": []
 }

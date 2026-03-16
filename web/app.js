@@ -1,4 +1,9 @@
 const LOCAL_HOSTS = new Set(["127.0.0.1", "localhost"]);
+const BOARD_DOM = {
+  direct_rss: { title: "direct-title", subtitle: "direct-subtitle", description: "direct-description" },
+  fast_news_and_leaks: { title: "fast-title", subtitle: "fast-subtitle", description: "fast-description" },
+  long_form: { title: "long-title", subtitle: "long-subtitle", description: "long-description" },
+};
 
 function getDashboardSources() {
   const live = [{ url: "/api/dashboard", mode: "live" }];
@@ -27,6 +32,28 @@ async function fetchDashboard() {
   throw lastError || new Error("Failed to load dashboard");
 }
 
+function escapeHtml(text) {
+  return (text || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function renderTags(item) {
+  const tagGroups = item.tags || {};
+  const orderedTags = [...(tagGroups.region || []), ...(tagGroups.industry || []), ...(tagGroups.institution || [])];
+  if (!orderedTags.length) {
+    return "";
+  }
+  return `
+    <div class="tag-strip">
+      ${orderedTags.map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join("")}
+    </div>
+  `;
+}
+
 function renderCard(item) {
   const published = item.published_at ? new Date(item.published_at).toLocaleString() : "Unknown time";
   const sourceLink = item.url
@@ -39,6 +66,7 @@ function renderCard(item) {
         <span class="bucket bucket-${item.bucket}">${item.bucket}</span>
       </div>
       <h4>${item.title}</h4>
+      ${renderTags(item)}
       <p>${item.snippet || ""}</p>
       <div class="card-foot">
         <span>${published}</span>
@@ -61,6 +89,7 @@ function renderMiniCard(item) {
         <span class="bucket bucket-${item.bucket}">${item.bucket}</span>
       </div>
       <h4>${item.title}</h4>
+      ${renderTags(item)}
       <p>${item.snippet || ""}</p>
       ${reason ? `<div class="reason">${reason}</div>` : ""}
       <div class="card-foot">
@@ -96,6 +125,19 @@ function renderBoardStatus(elementId, payload) {
   const published = (payload.published || []).length;
   const review = (payload.review || []).length;
   root.textContent = published ? `Published ${published}` : `Preview ${review}`;
+}
+
+function renderBoardMeta(boardId, payload, fallbackTag) {
+  const root = BOARD_DOM[boardId];
+  const meta = payload?.meta;
+  if (!root || !meta) {
+    return;
+  }
+  document.getElementById(root.title).textContent = meta.title;
+  document.getElementById(root.subtitle).textContent = meta.subtitle;
+  document.getElementById(root.description).textContent = meta.description;
+  const tagId = boardId === "direct_rss" ? "direct-tag" : boardId === "fast_news_and_leaks" ? "fast-tag" : "long-tag";
+  document.getElementById(tagId).textContent = fallbackTag;
 }
 
 function renderFailures(failures) {
@@ -152,6 +194,9 @@ async function load() {
       ? `live · ${data.provider}`
       : `preview · ${data.provider}`;
 
+    renderBoardMeta("direct_rss", data.boards.direct_rss, "栏目 01");
+    renderBoardMeta("fast_news_and_leaks", data.boards.fast_news_and_leaks, "栏目 02");
+    renderBoardMeta("long_form", data.boards.long_form, "栏目 03");
     renderBoard("direct_rss", data.boards.direct_rss);
     renderBoard("fast_news_and_leaks", data.boards.fast_news_and_leaks);
     renderBoard("long_form", data.boards.long_form);

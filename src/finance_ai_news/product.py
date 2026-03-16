@@ -4,18 +4,24 @@ import json
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List
+from typing import Any, Dict, List
 
+from finance_ai_news.manifest import load_sources
+from finance_ai_news.taxonomy import BOARD_ORDER, BOARD_DEFINITIONS, classify_and_tag_item
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "chapter1" / "output"
 RECLASSIFIED_DIR = ROOT / "chapter2" / "output" / "reclassified"
+MANIFEST_PATH = ROOT / "chapter1" / "day1_sources.json"
 
 
 @dataclass
 class UnifiedItem:
     id: str
     board: str
+    section_id: str
+    section_title: str
+    section_subtitle: str
     bucket: str
     source_id: str
     source_name: str
@@ -23,12 +29,16 @@ class UnifiedItem:
     snippet: str
     url: str
     published_at: str
-    metadata: Dict[str, str]
+    tags: Dict[str, List[str]]
+    metadata: Dict[str, Any]
 
     def to_dict(self) -> dict:
         return {
             "id": self.id,
             "board": self.board,
+            "section_id": self.section_id,
+            "section_title": self.section_title,
+            "section_subtitle": self.section_subtitle,
             "bucket": self.bucket,
             "source_id": self.source_id,
             "source_name": self.source_name,
@@ -36,6 +46,7 @@ class UnifiedItem:
             "snippet": self.snippet,
             "url": self.url,
             "published_at": self.published_at,
+            "tags": self.tags,
             "metadata": self.metadata,
         }
 
@@ -67,7 +78,53 @@ def _truncate(text: str, limit: int = 220) -> str:
     return text[: limit - 1].rstrip() + "…"
 
 
-def _parse_x(payload: dict) -> List[UnifiedItem]:
+def _load_source_map() -> dict:
+    return {source.id: source for source in load_sources(MANIFEST_PATH)}
+
+
+def _build_unified_item(
+    source_map: dict,
+    result: dict,
+    bucket: str,
+    index: int,
+    title: str,
+    snippet: str,
+    url: str,
+    published_at: str,
+    metadata: Dict[str, Any],
+) -> UnifiedItem:
+    source = source_map.get(result["source_id"])
+    classification = classify_and_tag_item(
+        source=source,
+        title=title,
+        snippet=snippet,
+        url=url,
+    )
+    return UnifiedItem(
+        id=f"{result['source_id']}:{bucket}:{index}",
+        board=classification["board"],
+        section_id=classification["section_id"],
+        section_title=classification["section_title"],
+        section_subtitle=classification["section_subtitle"],
+        bucket=bucket,
+        source_id=result["source_id"],
+        source_name=result["source_name"],
+        title=title,
+        snippet=snippet,
+        url=url,
+        published_at=published_at,
+        tags=classification["tags"],
+        metadata={
+            **metadata,
+            "source_region": getattr(source, "region", ""),
+            "source_channel": getattr(source, "channel", ""),
+            "source_importance": getattr(source, "importance", ""),
+            "section_description": classification["section_description"],
+        },
+    )
+
+
+def _parse_x(payload: dict, source_map: dict) -> List[UnifiedItem]:
     items: List[UnifiedItem] = []
     for result in payload.get("results", []):
         for bucket in ["accepted_items", "review_items"]:
@@ -75,15 +132,15 @@ def _parse_x(payload: dict) -> List[UnifiedItem]:
             for index, item in enumerate(result.get(bucket, [])):
                 content = item.get("content", "")
                 title = _truncate(content.replace("\n", " "), 120)
+                snippet = _truncate(content, 320)
                 items.append(
-                    UnifiedItem(
-                        id=f"{result['source_id']}:{normalized_bucket}:{index}",
-                        board="fast_news_and_leaks",
+                    _build_unified_item(
+                        source_map=source_map,
+                        result=result,
                         bucket=normalized_bucket,
-                        source_id=result["source_id"],
-                        source_name=result["source_name"],
+                        index=index,
                         title=title,
-                        snippet=_truncate(content, 320),
+                        snippet=snippet,
                         url=item.get("url", ""),
                         published_at=item.get("created_at", result.get("fetched_at", "")),
                         metadata={
@@ -91,40 +148,44 @@ def _parse_x(payload: dict) -> List[UnifiedItem]:
                             "filter_provider": result.get("filter_provider", ""),
                             "filter_reason": (item.get("filter_decision") or {}).get("reason", ""),
                             "finance_scope": item.get("source_finance_scope", ""),
+                            "legacy_board": "fast_news_and_leaks",
                         },
                     )
                 )
     return items
 
 
-def _parse_generic(payload: dict, default_board: str | None = None) -> List[UnifiedItem]:
+def _parse_generic(
+    payload: dict,
+    source_map: dict,
+    default_board: str | None = None,
+) -> List[UnifiedItem]:
     items: List[UnifiedItem] = []
     for result in payload.get("results", []):
-        board = result.get("board") or default_board or "direct_rss"
         for bucket in ["accepted_items", "review_items"]:
             normalized_bucket = "published" if bucket == "accepted_items" else "review"
             for index, item in enumerate(result.get(bucket, [])):
                 title = item.get("title") or item.get("content") or "Untitled"
+                snippet = _truncate(
+                    item.get("description")
+                    or item.get("snippet")
+                    or item.get("summary")
+                    or item.get("subtitle")
+                    or ""
+                    or item.get("content")
+                    or item.get("published")
+                    or item.get("filter_decision", {}).get("reason", "")
+                    or title,
+                    320,
+                )
                 items.append(
-                    UnifiedItem(
-                        id=f"{result['source_id']}:{normalized_bucket}:{index}",
-                        board=board,
+                    _build_unified_item(
+                        source_map=source_map,
+                        result=result,
                         bucket=normalized_bucket,
-                        source_id=result["source_id"],
-                        source_name=result["source_name"],
+                        index=index,
                         title=_truncate(title, 140),
-                        snippet=_truncate(
-                            item.get("description")
-                            or item.get("snippet")
-                            or item.get("summary")
-                            or item.get("subtitle")
-                            or ""
-                            or item.get("content")
-                            or item.get("published")
-                            or item.get("filter_decision", {}).get("reason", "")
-                            or title,
-                            320,
-                        ),
+                        snippet=snippet,
                         url=item.get("url", ""),
                         published_at=item.get("published", result.get("fetched_at", "")),
                         metadata={
@@ -132,6 +193,7 @@ def _parse_generic(payload: dict, default_board: str | None = None) -> List[Unif
                             "filter_provider": result.get("filter_provider", ""),
                             "filter_reason": (item.get("filter_decision") or {}).get("reason", ""),
                             "finance_scope": item.get("source_finance_scope", ""),
+                            "legacy_board": result.get("board") or default_board or "direct_rss",
                         },
                     )
                 )
@@ -178,6 +240,7 @@ def _resolve_provider_state(
 
 
 def load_dashboard_state() -> dict:
+    source_map = _load_source_map()
     x_payload = _load_best_payload("x_latest.json")
     web_payload = _load_best_payload("web_latest.json")
     youtube_payload = _load_best_payload("youtube_latest.json")
@@ -188,25 +251,24 @@ def load_dashboard_state() -> dict:
     )
 
     items = []
-    items.extend(_parse_x(x_payload))
-    items.extend(_parse_generic(web_payload))
-    items.extend(_parse_generic(youtube_payload, default_board="long_form"))
-    items.extend(_parse_generic(bilibili_payload, default_board="long_form"))
+    items.extend(_parse_x(x_payload, source_map=source_map))
+    items.extend(_parse_generic(web_payload, source_map=source_map))
+    items.extend(_parse_generic(youtube_payload, source_map=source_map, default_board="long_form"))
+    items.extend(_parse_generic(bilibili_payload, source_map=source_map, default_board="long_form"))
     items.sort(key=lambda item: item.published_at or "", reverse=True)
 
-    boards = {
-        "direct_rss": [],
-        "fast_news_and_leaks": [],
-        "long_form": [],
-    }
+    boards = {board: [] for board in BOARD_ORDER}
     for item in items:
         boards.setdefault(item.board, []).append(item)
 
     board_payload = {}
-    for board, board_items in boards.items():
+    for board in BOARD_ORDER:
+        board_items = boards.get(board, [])
         published_items = [item.to_dict() for item in board_items if item.bucket == "published"]
         review_items = [item.to_dict() for item in board_items if item.bucket == "review"]
+        definition = BOARD_DEFINITIONS[board]
         board_payload[board] = {
+            "meta": definition.to_dict(),
             "published": published_items,
             "review": review_items,
             "delivery": published_items,
@@ -234,6 +296,8 @@ def load_dashboard_state() -> dict:
                 if filename.exists()
             ),
         },
+        "board_order": BOARD_ORDER,
+        "board_meta": {board: definition.to_dict() for board, definition in BOARD_DEFINITIONS.items()},
         "boards": board_payload,
         "failures": _load_failures(),
     }
